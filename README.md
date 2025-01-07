@@ -1,16 +1,23 @@
-## Hi there 👋
+# Oii, Me Chamo Karlos Sanchez 😃
 
-<!--
-**KarlosSanchez18/KarlosSanchez18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Seja Bem-Vindo 🤙
 
-Here are some ideas to get you started:
+## Sobre Mim! 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ ► Amo a noite 🌆
+
+ ► Aniversário 18 de janeiro de 2005 ♑
+
+ ► BR Brasileiro
+
+💻 Atualmente, fazendo faculdade de ciencia da computação e focado em ciencia de dados.
+
+💼 Anaslissta de dados
+
+💡 Experiência com Excel, Premiere, Photoshop e Power BI
+
+## 📡 Entrar Em Contato
+
+<div>
+  <a href = "karloseduardosanchez51@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a></div>
