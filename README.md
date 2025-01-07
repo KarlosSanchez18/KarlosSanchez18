@@ -19,5 +19,5 @@ Seja Bem-Vindo 🤙
 ## 📡 Entrar Em Contato
 
 <div>
-  <a href = "[karloseduardosanchez51@gmail.com](https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSKkkJlHPWmlmwLpkJcgPBpRKhgtpjdTkvJZZjBDKqSqCXPRxhkdJsvVRqwVwNWSqRknGxGh)"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href = "https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSKkkJlHPWmlmwLpkJcgPBpRKhgtpjdTkvJZZjBDKqSqCXPRxhkdJsvVRqwVwNWSqRknGxGhhttps://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSKkkJlHPWmlmwLpkJcgPBpRKhgtpjdTkvJZZjBDKqSqCXPRxhkdJsvVRqwVwNWSqRknGxGh"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a></div>
