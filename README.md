@@ -1,23 +1,37 @@
-# Oii, Me Chamo Karlos Sanchez 😃
+# 👋 Olá, me chamo Karlos Sanchez
 
-Seja Bem-Vindo 🤙
+Seja bem-vindo ao meu GitHub!
 
-## Sobre Mim! 
+## 🚀 Sobre mim
 
- ► Amo a noite 🌆
+🎓 Estudante de Ciência da Computação  
+📊 Focado em Ciência de Dados e Automação  
+💼 Analista de Dados  
 
- ► Aniversário 18 de janeiro de 2005 ♑
+Sou apaixonado por tecnologia, automação e análise de dados.  
+Tenho experiência no desenvolvimento de bots, integração de sistemas e organização de projetos com foco em escalabilidade e manutenção.
 
- ► BR Brasileiro
+---
 
-💻 Atualmente, fazendo faculdade de ciencia da computação e focado em ciencia de dados.
+## 🛠️ Tecnologias & Ferramentas
 
-💼 Anaslissta de dados
+- Python
+- Telethon
+- AsyncIO
+- Excel
+- Power BI
+- Adobe Premiere
+- Photoshop
 
-💡 Experiência com Excel, Premiere, Photoshop e Power BI
+---
 
-## 📡 Entrar Em Contato
+## 📬 Contato
 
 <div>
-  <a href = "https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSKkkJlHPWmlmwLpkJcgPBpRKhgtpjdTkvJZZjBDKqSqCXPRxhkdJsvVRqwVwNWSqRknGxGhhttps://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSKkkJlHPWmlmwLpkJcgPBpRKhgtpjdTkvJZZjBDKqSqCXPRxhkdJsvVRqwVwNWSqRknGxGh"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a></div>
+  <a href="mailto:SEUEMAIL@gmail.com">
+    <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+  <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+</div>
