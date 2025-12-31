@@ -28,7 +28,7 @@ Tenho experiência no desenvolvimento de bots, integração de sistemas e organi
 ## 📬 Contato
 
 <div>
-  <a href="mailto:SEUEMAIL@gmail.com">
+  <a href="mailto:karloseduardosanchez@hotmail.com">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
   <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank">
