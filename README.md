@@ -14,15 +14,15 @@ Seja bem-vindo ao meu GitHub!
 
 ## 🛠️ Tecnologias & Ferramentas
 
--Power BI (DAX)
+•Power BI (DAX)
 
--SQL
+•SQL
 
--Excel / Google Sheets
+•Excel / Google Sheets
 
--Python (automação)
+•Python (automação)
 
--Telethon / AsyncIO
+•Telethon / AsyncIO
 
 ---
 
