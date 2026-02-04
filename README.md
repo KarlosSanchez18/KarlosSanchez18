@@ -4,9 +4,9 @@ Seja bem-vindo ao meu GitHub!
 
 ## 🚀 Sobre mim
 
-🎯 Foco em Dados/BI (Power BI, SQL, Excel) e automação em Python
+🎯 Foco em Dados e BI (Power BI, SQL, Excel) e automação em Python
 
-📊 Crio dashboards e relatórios de KPIs (portfólio: Benefícios/VT e Frete/Logística)
+📊 Crio dashboards e relatórios de KPIs (portfólio: Benefícios/VT, Frete e Logística)
 
 🔄 Experiência com ETL e organização de dados para tomada de decisão
 
