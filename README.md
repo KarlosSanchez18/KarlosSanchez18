@@ -4,24 +4,21 @@ Seja bem-vindo ao meu GitHub!
 
 ## 🚀 Sobre mim
 
-🎓 Estudante de Ciência da Computação  
-📊 Focado em Ciência de Dados e Automação  
-💼 Analista de Dados  
+🎯 Foco em Dados/BI (Power BI, SQL, Excel) e automação em Python
 
-Sou apaixonado por tecnologia, automação e análise de dados.  
-Tenho experiência no desenvolvimento de bots, integração de sistemas e organização de projetos com foco em escalabilidade e manutenção.
+📊 Crio dashboards e relatórios de KPIs (portfólio: Benefícios/VT e Frete/Logística)
+
+🔄 Experiência com ETL e organização de dados para tomada de decisão
 
 ---
 
 ## 🛠️ Tecnologias & Ferramentas
 
-- Python
-- Telethon
-- AsyncIO
-- Excel
-- Power BI
-- Adobe Premiere
-- Photoshop
+-Power BI (DAX)
+-SQL
+-Excel / Google Sheets
+-Python (automação)
+-Telethon / AsyncIO
 
 ---
 
