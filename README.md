@@ -29,7 +29,7 @@ Seja bem-vindo ao meu GitHub!
 ## 📬 Contato
 
 <div>
-  <a href="mailto:karloseduardosanchez@hotmail.com">
+  <a href="mailto:karloseduardosanchez51@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
   <a href="https://www.linkedin.com/in/karlos-sanchez-379953305/" target="_blank">
