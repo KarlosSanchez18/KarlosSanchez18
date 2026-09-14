@@ -27,6 +27,18 @@ I handled the implementation end to end, including:
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    A[Ad / Campaign] --> T[Public tracking route]
+    T --> C[Capture attribution data]
+    C --> DB[(Supabase / PostgreSQL)]
+    C --> R{Destination}
+    R --> W[WhatsApp]
+    R --> LP[Landing page]
+    DB --> CRM[Desktop mini-CRM]
+    DESK[Electron desktop app] --> DB
+```
+
 ### Desktop application
 
 - Electron
