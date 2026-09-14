@@ -21,16 +21,17 @@ I handled the technical setup and integration work, including:
 - Cloudflare Tunnel exposure for webhook delivery;
 - iterative call testing and prompt/voice adjustments.
 
-## Core flow
-
-1. A customer calls the business.
-2. Sophie answers and identifies the service requested.
-3. The agent asks the qualification questions required by the business.
-4. Relevant information is structured after the call.
-5. A webhook sends the call summary to the integration service.
-6. The summary is delivered to the team through WhatsApp.
-
 ## Architecture
+
+```mermaid
+flowchart LR
+    C[Customer call] --> V[Vapi voice agent]
+    V --> Q[Qualification + data collection]
+    Q --> S[Structured call result]
+    S --> WH[Post-call webhook]
+    WH --> API[Integration service on Docker / VPS]
+    API --> WA[WhatsApp team handoff]
+```
 
 ### Voice layer
 
@@ -48,6 +49,15 @@ I handled the technical setup and integration work, including:
 
 - WhatsApp integration
 - structured post-call summary
+
+## Core flow
+
+1. A customer calls the business.
+2. Sophie answers and identifies the service requested.
+3. The agent asks the qualification questions required by the business.
+4. Relevant information is structured after the call.
+5. A webhook sends the call summary to the integration service.
+6. The summary is delivered to the team through WhatsApp.
 
 ## Engineering focus
 
