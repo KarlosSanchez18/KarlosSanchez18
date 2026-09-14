@@ -55,6 +55,8 @@ Desktop + web system for agencies to track lead sources and campaigns before the
 
 ### AI Voice Operations — Sophie
 
+<img src="./assets/case-ai-voice.webp" alt="AI Voice Operations case study — Sophie / TRJ Clean Service" width="100%" />
+
 AI voice receptionist built for a U.S. service business. The agent handles inbound calls, qualifies leads, collects structured customer information, and automatically sends a call summary to the team through WhatsApp.
 
 **Stack:** Vapi, webhooks, APIs, Docker, Linux/VPS, WhatsApp integration.
