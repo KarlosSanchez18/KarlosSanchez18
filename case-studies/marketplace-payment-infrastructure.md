@@ -25,6 +25,19 @@ I worked on the custom WordPress plugin and payment flow, including:
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    C[Marketplace checkout] --> WC[WooCommerce]
+    WC --> P[Custom split-payment plugin]
+    D[Dokan vendor context] --> P
+    P --> V[Validation + idempotency rules]
+    V --> A[Asaas API]
+    A --> S[Vendor / platform split]
+    A --> R[Refund / reversal status]
+    R --> P
+    P --> WC
+```
+
 ### Commerce layer
 
 - WordPress
