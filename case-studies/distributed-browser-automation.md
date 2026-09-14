@@ -27,6 +27,24 @@ I worked on the automation and control flow, including:
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    UI[Admin / control surface] --> S[Ubuntu coordination server]
+    S --> DB[(PostgreSQL)]
+    S --> A1[Windows agent 1]
+    S --> A2[Windows agent 2]
+    S --> AN[Windows agent N]
+    A1 --> B1[Playwright browser]
+    A2 --> B2[Playwright browser]
+    AN --> BN[Playwright browser]
+    B1 --> R[Operational source]
+    B2 --> R
+    BN --> R
+    A1 --> DB
+    A2 --> DB
+    AN --> DB
+```
+
 ### Agent layer
 
 - Python
