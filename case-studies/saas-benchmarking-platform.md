@@ -26,6 +26,18 @@ I implemented the first product phase end to end, including:
 
 ## Architecture
 
+```mermaid
+flowchart LR
+    U[Authenticated user] --> APP[Next.js application]
+    APP --> AUTH[Supabase Auth]
+    APP --> UP[CSV upload / processing]
+    UP --> M[Metric calculation]
+    M --> DB[(PostgreSQL / Supabase)]
+    DB --> DASH[Dashboards + insights]
+    AUTH --> RBAC[Role / company boundaries]
+    RBAC --> ADMIN[Protected admin area]
+```
+
 ### Application
 
 - Next.js
