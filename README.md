@@ -1,3 +1,8 @@
+<p align="right">
+  <a href="./README.md"><img src="https://img.shields.io/badge/English-FF6A00?style=for-the-badge" alt="English" /></a>
+  <a href="./README.pt-BR.md"><img src="https://img.shields.io/badge/Portugu%C3%AAs-2B2B2B?style=for-the-badge" alt="Português" /></a>
+</p>
+
 <p align="center">
   <img src="./assets/github-header.webp" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
