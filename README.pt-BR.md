@@ -16,7 +16,7 @@ Meus trabalhos recentes não são centrados em projetos de tutorial. Incluem sis
 **Foco atual:** Python · TypeScript · APIs · Automação · Integrações · Sistemas de negócio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contato-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez51@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contato-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez@hotmail.com)
 ![Local](https://img.shields.io/badge/Brasil-Remoto-2B2B2B?style=flat-square)
 
 ---
@@ -168,7 +168,7 @@ Prefiro uma primeira versão que funciona, com limites claros, a uma especifica�
 ## Contato
 
 **LinkedIn:** [linkedin.com/in/karlos-sanchez](https://www.linkedin.com/in/karlos-sanchez/)  
-**Email:** [karloseduardosanchez51@gmail.com](mailto:karloseduardosanchez51@gmail.com)
+**Email:** [karloseduardosanchez@hotmail.com](mailto:karloseduardosanchez@hotmail.com)
 
 ### Systems that work.
 *De processo manual a software pronto para produção.*
