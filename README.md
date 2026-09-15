@@ -10,7 +10,7 @@
 <h2 align="center">Full-Stack Developer · Automation · AI Integrations · Business Systems</h2>
 
 <p align="center">
-  I build practical software for real operations — systems that automate work, connect tools and stay useful after launch.
+  I turn manual workflows and disconnected tools into software that is useful, maintainable and ready to operate.
 </p>
 
 <p align="center">
@@ -19,76 +19,39 @@
   <img src="https://img.shields.io/badge/Brazil-Remote-FF6A00?style=for-the-badge" alt="Brazil Remote" />
 </p>
 
+<p align="center"><strong>Python · TypeScript · APIs · Automation · Integrations · SaaS · Applied AI</strong></p>
+
+<br />
+
 <p align="center">
-  <strong>Python · TypeScript · APIs · Automation · Integrations · SaaS · Applied AI</strong>
+  <img src="./assets/capabilities-en.svg" alt="What I build" width="100%" />
 </p>
 
----
-
-## What I build
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### ⚙️ Automation
-Manual workflows turned into reliable software.
-
-</td>
-<td width="25%" valign="top">
-
-### 🔌 Integrations
-APIs, webhooks, payments, WhatsApp and external services.
-
-</td>
-<td width="25%" valign="top">
-
-### 🧩 Business systems
-SaaS, internal tools, CRMs and operational dashboards.
-
-</td>
-<td width="25%" valign="top">
-
-### ✦ Applied AI
-Voice agents, lead qualification and AI-assisted workflows.
-
-</td>
-</tr>
-</table>
-
----
+<br />
 
 ## Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="./case-studies/lead-tracking-crm.md">
-  <img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" />
-</a>
+<a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" /></a>
 
 ### UTMZAP — Lead Tracking & CRM
-
 Lead attribution system for agencies, combining trackable campaign links, UTM capture, WhatsApp flows and a mini-CRM.
 
 **Electron · React · TypeScript · Next.js · Supabase · PostgreSQL**
 
 [View case study →](./case-studies/lead-tracking-crm.md)
-
 </td>
 <td width="50%" valign="top">
-<a href="./case-studies/ai-voice-operations.md">
-  <img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" />
-</a>
+<a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" /></a>
 
 ### AI Voice Operations — Sophie
-
 AI receptionist for a U.S. service business, handling inbound calls, qualifying leads and sending structured summaries to the team through WhatsApp.
 
 **Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp**
 
 [View case study →](./case-studies/ai-voice-operations.md)
-
 </td>
 </tr>
 </table>
@@ -142,17 +105,13 @@ Authentication, CSV ingestion, metric processing, dashboards, roles and protecte
 
 <p align="center"><strong>Web · Desktop · APIs · Automation · Infrastructure · Integrations</strong></p>
 
----
-
-## How I work
+<br />
 
 <p align="center">
-  <strong>Understand the operation → define the smallest reliable scope → ship → validate → harden → iterate</strong>
+  <img src="./assets/process-en.svg" alt="How I work" width="100%" />
 </p>
 
-<p align="center">
-  I prefer a useful first version with clear boundaries over a large specification that never reaches production.
-</p>
+<p align="center">I prefer a useful first version with clear boundaries over a large specification that never reaches production.</p>
 
 ---
 
@@ -206,17 +165,12 @@ Commercial/client repositories remain private when they contain proprietary code
 
 ---
 
-## Open to
+<h2 align="center">Open to building useful software</h2>
+
+<p align="center"><strong>Freelance projects · Remote contracts · Automation · Integrations · Full-Stack product development</strong></p>
 
 <p align="center">
-  <strong>Freelance projects · Remote contracts · Automation · Integrations · Full-Stack product development</strong>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/LET'S%20BUILD%20SOMETHING-FF6A00?style=for-the-badge" alt="Let's build something" /></a>
 </p>
 
-<p align="center">
-  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Let's%20build%20something-FF6A00?style=for-the-badge" alt="Let's build something" /></a>
-</p>
-
-<p align="center">
-  <strong>Systems that work.</strong><br />
-  <em>From manual process to production-ready software.</em>
-</p>
+<p align="center"><strong>Systems that work.</strong><br /><em>From manual process to production-ready software.</em></p>
