@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-label="Capacidades: Automação, Integrações, Sistemas de Negócio, IA Aplicada">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ff8a34"/></linearGradient>
+  </defs>
+  <rect width="1400" height="390" rx="24" fill="#0b0b0b"/>
+  <text x="54" y="72" fill="#f3efe8" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">O QUE EU CONSTRUO</text>
+  <rect x="54" y="91" width="70" height="4" rx="2" fill="url(#accent)"/>
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <g transform="translate(54,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">⚙</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Automação</text><text x="30" y="141" fill="#aaa59f" font-size="17">Fluxos manuais virando</text><text x="30" y="166" fill="#aaa59f" font-size="17">software confiável.</text></g>
+    <g transform="translate(382,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">↔</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Integrações</text><text x="30" y="141" fill="#aaa59f" font-size="17">APIs, webhooks, pagamentos,</text><text x="30" y="166" fill="#aaa59f" font-size="17">WhatsApp e serviços.</text></g>
+    <g transform="translate(710,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">▦</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Sistemas</text><text x="30" y="141" fill="#aaa59f" font-size="17">SaaS, ferramentas internas,</text><text x="30" y="166" fill="#aaa59f" font-size="17">CRMs e produtos operacionais.</text></g>
+    <g transform="translate(1038,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">✦</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">IA Aplicada</text><text x="30" y="141" fill="#aaa59f" font-size="17">Agentes de voz, qualificação</text><text x="30" y="166" fill="#aaa59f" font-size="17">e fluxos assistidos por IA.</text></g>
+  </g>
+</svg>
