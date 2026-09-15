@@ -7,84 +7,50 @@
   <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
-## Full-Stack Developer focused on automation, integrations and business systems
+<h2 align="center">Full-Stack Developer · Automation · AI Integrations · Business Systems</h2>
 
-I build software around **real operational problems**: manual workflows, disconnected tools, unreliable processes and systems that need to keep working after the first demo.
+<p align="center">
+  I build practical software for real operations — systems that automate work, connect tools and stay useful after launch.
+</p>
 
-I usually take projects from **technical definition and data modeling through implementation, deployment, validation and iteration**. Recent work includes lead attribution, distributed browser automation, marketplace payments, AI voice operations and SaaS benchmarking.
+<p align="center">
+  <a href="https://www.linkedin.com/in/karlos-sanchez/"><img src="https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Email-Contact-2B2B2B?style=for-the-badge" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Brazil-Remote-FF6A00?style=for-the-badge" alt="Brazil Remote" />
+</p>
 
-**Current focus:** Python · TypeScript · APIs · Automation · Integrations · Business Systems
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contact-2B2B2B?style=flat-square)](mailto:karloseduardosanchez@hotmail.com)
-![Location](https://img.shields.io/badge/Brazil-Remote-2B2B2B?style=flat-square)
-
----
-
-## Proof of work
-
-These are the projects that best represent how I work today.
-
-| System | Delivery / validation | Engineering work | Stack |
-|---|---|---|---|
-| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | Functional MVP delivered | Public tracking routes, UTM/`gclid`/`fbclid` capture, redirect validation, click/lead persistence, mini-CRM, Supabase Auth + RLS | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
-| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Working first version validated through realistic call scenarios | Inbound voice flow, lead qualification, structured outputs, post-call webhook, WhatsApp handoff, Docker/VPS integration layer | Vapi, Webhooks, APIs, Docker, Linux/VPS, WhatsApp |
-| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Full remote collection runs validated | Remote Windows agents, Ubuntu coordination server, concurrency rules, scheduling, session recovery, run state, logs and PostgreSQL persistence | Python, Playwright, Django, PostgreSQL, Linux/Windows |
-| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Split-payment flow and plugin core implemented and tested | Multi-vendor financial rules, validation, idempotency, duplicate protection, refunds/reversals, HPOS compatibility and automated tests | PHP, WordPress, WooCommerce, Dokan, Asaas API |
-| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | First product phase delivered | Authentication, company/user scoping, roles, 7-day trial rules, CSV ingestion, metric persistence, dashboards and protected admin routes | Next.js, TypeScript, Supabase, PostgreSQL |
-
-> Client/commercial repositories stay private when they contain proprietary code, credentials, business rules or operational details. The linked case studies document architecture, responsibilities and technical decisions without exposing sensitive material.
+<p align="center">
+  <strong>Python · TypeScript · APIs · Automation · Integrations · SaaS · Applied AI</strong>
+</p>
 
 ---
 
-## Engineering depth
+## What I build
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Reliability & automation
-
-- Browser/session recovery for long-running agents
-- Concurrency and minimum-interval rules
-- Scheduled execution and run-state tracking
-- Logging and operational visibility
-- Remote agent + central control workflows
+### ⚙️ Automation
+Manual workflows turned into reliable software.
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### APIs & integrations
-
-- REST APIs and webhook consumers
-- WhatsApp and voice-agent handoffs
-- External provider constraints and failure handling
-- Server-side validation and redirect safety
-- Payment and marketplace integrations
+### 🔌 Integrations
+APIs, webhooks, payments, WhatsApp and external services.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Product & data boundaries
-
-- Authentication and role-aware access
-- Supabase RLS / company-scoped data
-- Mini-CRMs and admin surfaces
-- CSV/file ingestion and persisted metrics
-- Web + desktop hybrid systems
+### 🧩 Business systems
+SaaS, internal tools, CRMs and operational dashboards.
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Financial correctness
-
-- Idempotent payment processing
-- Duplicate-processing protection
-- Refund/reversal flows
-- Multi-vendor allocation rules
-- Automated tests around business-critical logic
+### ✦ Applied AI
+Voice agents, lead qualification and AI-assisted workflows.
 
 </td>
 </tr>
@@ -92,35 +58,141 @@ These are the projects that best represent how I work today.
 
 ---
 
-## How I build
+## Featured work
 
-**1. Understand the operation** — map the real workflow, constraints and failure points.  
-**2. Define the smallest reliable scope** — avoid oversized specs before the core flow is proven.  
-**3. Ship a functional version** — something that can be tested in the actual operating context.  
-**4. Validate real behavior** — use logs, edge cases and user feedback instead of assuming the happy path is enough.  
-**5. Harden the system** — recovery, validation, permissions, duplicate protection and operational visibility.  
-**6. Document and iterate** — make the next change easier than the previous one.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="./case-studies/lead-tracking-crm.md">
+  <img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" />
+</a>
 
-That approach is visible across the case studies above: the work is not only about features, but about making the system **operable, diagnosable and maintainable**.
+### UTMZAP — Lead Tracking & CRM
+
+Lead attribution system for agencies, combining trackable campaign links, UTM capture, WhatsApp flows and a mini-CRM.
+
+**Electron · React · TypeScript · Next.js · Supabase · PostgreSQL**
+
+[View case study →](./case-studies/lead-tracking-crm.md)
+
+</td>
+<td width="50%" valign="top">
+<a href="./case-studies/ai-voice-operations.md">
+  <img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" />
+</a>
+
+### AI Voice Operations — Sophie
+
+AI receptionist for a U.S. service business, handling inbound calls, qualifying leads and sending structured summaries to the team through WhatsApp.
+
+**Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp**
+
+[View case study →](./case-studies/ai-voice-operations.md)
+
+</td>
+</tr>
+</table>
+
+### More systems
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### Distributed Browser Automation
+Remote agents, centralized control, scheduling, recovery and long-running browser workflows.
+
+[Case study →](./case-studies/distributed-browser-automation.md)
+
+</td>
+<td width="33%" valign="top">
+
+#### Marketplace Payment Infrastructure
+Multi-vendor payment splitting, financial rules, idempotency and refund/reversal handling.
+
+[Case study →](./case-studies/marketplace-payment-infrastructure.md)
+
+</td>
+<td width="33%" valign="top">
+
+#### SaaS Benchmarking Platform
+Authentication, CSV ingestion, metric processing, dashboards, roles and protected admin flows.
+
+[Case study →](./case-studies/saas-benchmarking-platform.md)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Core stack
+## Selected technologies
 
-| Area | Technologies |
-|---|---|
-| **Backend** | Python, FastAPI, Flask, Django, PHP |
-| **Frontend / Desktop** | TypeScript, React, Next.js, Electron |
-| **Data** | PostgreSQL, Supabase, SQL, ETL |
-| **Automation** | Playwright, Selenium, scheduled jobs, browser workflows |
-| **Infrastructure** | Docker, Linux/VPS, Vercel, Cloudflare |
-| **Integrations** | REST APIs, Webhooks, WhatsApp, Vapi, payment providers |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-111111?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+</p>
+
+<p align="center"><strong>Web · Desktop · APIs · Automation · Infrastructure · Integrations</strong></p>
 
 ---
 
-## Public code
+## How I work
 
-My strongest commercial work is represented by the case studies above. These repositories are public because their source can be reviewed without exposing client code:
+<p align="center">
+  <strong>Understand the operation → define the smallest reliable scope → ship → validate → harden → iterate</strong>
+</p>
+
+<p align="center">
+  I prefer a useful first version with clear boundaries over a large specification that never reaches production.
+</p>
+
+---
+
+<details>
+<summary><strong>Technical depth</strong></summary>
+<br />
+
+### Reliability & automation
+- Browser/session recovery for long-running agents
+- Concurrency and minimum-interval rules
+- Scheduled execution and run-state tracking
+- Logs and operational visibility
+- Remote agents with centralized control
+
+### APIs & integrations
+- REST APIs and webhook consumers
+- WhatsApp and voice-agent handoffs
+- External provider constraints and failure handling
+- Server-side validation and redirect safety
+- Payment and marketplace integrations
+
+### Product & data boundaries
+- Authentication and role-aware access
+- Supabase RLS / company-scoped data
+- Mini-CRMs and admin surfaces
+- CSV/file ingestion and persisted metrics
+- Web + desktop hybrid systems
+
+### Financial correctness
+- Idempotent processing
+- Duplicate protection
+- Refund/reversal flows
+- Multi-vendor allocation rules
+- Automated tests around business-critical logic
+
+</details>
+
+<details>
+<summary><strong>Public code</strong></summary>
+<br />
 
 | Repository | What you can inspect |
 |---|---|
@@ -128,30 +200,23 @@ My strongest commercial work is represented by the case studies above. These rep
 | **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Async Telegram routing with Telethon, source/target rules, topics and scheduled workflows. |
 | **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Flask integration layer receiving events and forwarding structured Telegram notifications. |
 
-<details>
-<summary><strong>Earlier Data / BI work</strong></summary>
-<br />
-My background also includes SQL, ETL, Excel and Power BI. Those repositories remain public as part of my trajectory, but my current positioning is centered on software systems, automation and integrations.
+Commercial/client repositories remain private when they contain proprietary code or sensitive operational details.
+
 </details>
 
 ---
 
-## Available for
+## Open to
 
-- Freelance software development
-- Remote contracts
-- Automation and integration projects
-- Full-stack product / MVP implementation
-- Technical implementation support for agencies and software teams
+<p align="center">
+  <strong>Freelance projects · Remote contracts · Automation · Integrations · Full-Stack product development</strong>
+</p>
 
-**Based in Brazil · available for remote work.**
+<p align="center">
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Let's%20build%20something-FF6A00?style=for-the-badge" alt="Let's build something" /></a>
+</p>
 
----
-
-## Contact
-
-**LinkedIn:** [linkedin.com/in/karlos-sanchez](https://www.linkedin.com/in/karlos-sanchez/)  
-**Email:** [karloseduardosanchez@hotmail.com](mailto:karloseduardosanchez@hotmail.com)
-
-### Systems that work.
-*From manual process to production-ready software.*
+<p align="center">
+  <strong>Systems that work.</strong><br />
+  <em>From manual process to production-ready software.</em>
+</p>
