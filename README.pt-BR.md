@@ -10,7 +10,7 @@
 <h2 align="center">Desenvolvedor Full-Stack · Automação · Integrações com IA · Sistemas de Negócio</h2>
 
 <p align="center">
-  Construo software prático para operações reais — sistemas que automatizam trabalho, conectam ferramentas e continuam úteis depois da entrega.
+  Transformo processos manuais e ferramentas desconectadas em software útil, sustentável e pronto para operar.
 </p>
 
 <p align="center">
@@ -19,76 +19,39 @@
   <img src="https://img.shields.io/badge/Brasil-Remoto-FF6A00?style=for-the-badge" alt="Brasil Remoto" />
 </p>
 
+<p align="center"><strong>Python · TypeScript · APIs · Automação · Integrações · SaaS · IA Aplicada</strong></p>
+
+<br />
+
 <p align="center">
-  <strong>Python · TypeScript · APIs · Automação · Integrações · SaaS · IA Aplicada</strong>
+  <img src="./assets/capabilities-pt.svg" alt="O que eu construo" width="100%" />
 </p>
 
----
-
-## O que eu construo
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-### ⚙️ Automação
-Processos manuais transformados em software confiável.
-
-</td>
-<td width="25%" valign="top">
-
-### 🔌 Integrações
-APIs, webhooks, pagamentos, WhatsApp e serviços externos.
-
-</td>
-<td width="25%" valign="top">
-
-### 🧩 Sistemas de negócio
-SaaS, ferramentas internas, CRMs e dashboards operacionais.
-
-</td>
-<td width="25%" valign="top">
-
-### ✦ IA aplicada
-Agentes de voz, qualificação de leads e fluxos assistidos por IA.
-
-</td>
-</tr>
-</table>
-
----
+<br />
 
 ## Trabalhos em destaque
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="./case-studies/lead-tracking-crm.md">
-  <img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" />
-</a>
+<a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" /></a>
 
 ### UTMZAP — Lead Tracking & CRM
-
 Sistema de atribuição de leads para agências, combinando links rastreáveis, captura de UTMs, fluxos de WhatsApp e mini-CRM.
 
 **Electron · React · TypeScript · Next.js · Supabase · PostgreSQL**
 
 [Ver case study →](./case-studies/lead-tracking-crm.md)
-
 </td>
 <td width="50%" valign="top">
-<a href="./case-studies/ai-voice-operations.md">
-  <img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" />
-</a>
+<a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" /></a>
 
 ### AI Voice Operations — Sophie
-
 Recepcionista com IA para uma empresa de serviços nos EUA, atendendo chamadas, qualificando leads e enviando resumos estruturados para a equipe no WhatsApp.
 
 **Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp**
 
 [Ver case study →](./case-studies/ai-voice-operations.md)
-
 </td>
 </tr>
 </table>
@@ -142,17 +105,13 @@ Autenticação, ingestão de CSV, processamento de métricas, dashboards, roles 
 
 <p align="center"><strong>Web · Desktop · APIs · Automação · Infraestrutura · Integrações</strong></p>
 
----
-
-## Como eu trabalho
+<br />
 
 <p align="center">
-  <strong>Entender a operação → definir o menor escopo confiável → entregar → validar → fortalecer → evoluir</strong>
+  <img src="./assets/process-pt.svg" alt="Como eu trabalho" width="100%" />
 </p>
 
-<p align="center">
-  Prefiro uma primeira versão útil e com limites claros a uma especificação enorme que nunca chega em produção.
-</p>
+<p align="center">Prefiro uma primeira versão útil e com limites claros a uma especificação enorme que nunca chega em produção.</p>
 
 ---
 
@@ -206,17 +165,12 @@ Repositórios comerciais/de clientes permanecem privados quando contêm código 
 
 ---
 
-## Disponível para
+<h2 align="center">Disponível para construir software útil</h2>
+
+<p align="center"><strong>Projetos freelance · Contratos remotos · Automação · Integrações · Desenvolvimento Full-Stack</strong></p>
 
 <p align="center">
-  <strong>Projetos freelance · Contratos remotos · Automação · Integrações · Desenvolvimento Full-Stack</strong>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/VAMOS%20CONSTRUIR%20ALGO-FF6A00?style=for-the-badge" alt="Vamos construir algo" /></a>
 </p>
 
-<p align="center">
-  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Vamos%20construir%20algo-FF6A00?style=for-the-badge" alt="Vamos construir algo" /></a>
-</p>
-
-<p align="center">
-  <strong>Systems that work.</strong><br />
-  <em>De processo manual a software pronto para produção.</em>
-</p>
+<p align="center"><strong>Systems that work.</strong><br /><em>De processo manual a software pronto para produção.</em></p>
