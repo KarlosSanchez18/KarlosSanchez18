@@ -7,84 +7,50 @@
   <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
-## Desenvolvedor Full-Stack focado em automação, integrações e sistemas de negócio
+<h2 align="center">Desenvolvedor Full-Stack · Automação · Integrações com IA · Sistemas de Negócio</h2>
 
-Construo software em cima de **problemas operacionais reais**: processos manuais, ferramentas desconectadas, fluxos frágeis e sistemas que precisam continuar funcionando depois da primeira demo.
+<p align="center">
+  Construo software prático para operações reais — sistemas que automatizam trabalho, conectam ferramentas e continuam úteis depois da entrega.
+</p>
 
-Costumo assumir projetos desde a **definição técnica e modelagem de dados até implementação, deploy, validação e evolução**. Meus trabalhos recentes incluem atribuição de leads, automação distribuída entre servidores, pagamentos de marketplace, atendimento por voz com IA e benchmarking SaaS.
+<p align="center">
+  <a href="https://www.linkedin.com/in/karlos-sanchez/"><img src="https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Email-Contato-2B2B2B?style=for-the-badge" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Brasil-Remoto-FF6A00?style=for-the-badge" alt="Brasil Remoto" />
+</p>
 
-**Foco atual:** Python · TypeScript · APIs · Automação · Integrações · Sistemas de negócio
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contato-2B2B2B?style=flat-square)](mailto:karloseduardosanchez@hotmail.com)
-![Local](https://img.shields.io/badge/Brasil-Remoto-2B2B2B?style=flat-square)
-
----
-
-## Provas de trabalho
-
-Estes são os projetos que melhor representam como eu trabalho hoje.
-
-| Sistema | Entrega / validação | Trabalho de engenharia | Stack |
-|---|---|---|---|
-| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | MVP funcional entregue | Rotas públicas de tracking, captura de UTM/`gclid`/`fbclid`, validação de redirecionamento, persistência de cliques/leads, mini-CRM, Supabase Auth + RLS | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
-| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Primeira versão funcional validada com cenários realistas de chamada | Fluxo de voz receptivo, qualificação, outputs estruturados, webhook pós-ligação, handoff no WhatsApp e camada de integração em Docker/VPS | Vapi, Webhooks, APIs, Docker, Linux/VPS, WhatsApp |
-| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Execuções remotas completas validadas | Agentes Windows remotos, servidor Ubuntu de coordenação, regras de concorrência, agendamento, recuperação de sessão, estado de execução, logs e persistência PostgreSQL | Python, Playwright, Django, PostgreSQL, Linux/Windows |
-| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Fluxo de split e núcleo do plugin implementados e testados | Regras financeiras multi-vendedor, validação, idempotência, proteção contra duplicidade, refunds/reversals, compatibilidade HPOS e testes automatizados | PHP, WordPress, WooCommerce, Dokan, API Asaas |
-| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Primeira fase do produto entregue | Autenticação, escopo empresa/usuário, roles, trial de 7 dias, ingestão de CSV, persistência de métricas, dashboards e rotas administrativas protegidas | Next.js, TypeScript, Supabase, PostgreSQL |
-
-> Repositórios de clientes e projetos comerciais permanecem privados quando contêm código proprietário, credenciais, regras de negócio ou detalhes operacionais. Os case studies documentam arquitetura, responsabilidades e decisões técnicas sem expor material sensível.
+<p align="center">
+  <strong>Python · TypeScript · APIs · Automação · Integrações · SaaS · IA Aplicada</strong>
+</p>
 
 ---
 
-## Profundidade de engenharia
+## O que eu construo
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Confiabilidade & automação
-
-- Recuperação de navegador/sessão em agentes de longa duração
-- Regras de concorrência e intervalo mínimo
-- Execuções agendadas e controle de estado
-- Logs e visibilidade operacional
-- Agentes remotos com controle centralizado
+### ⚙️ Automação
+Processos manuais transformados em software confiável.
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### APIs & integrações
-
-- APIs REST e consumidores de webhook
-- Handoff entre WhatsApp e agentes de voz
-- Tratamento de limitações e falhas de provedores
-- Validação server-side e segurança de redirecionamentos
-- Integrações financeiras e de marketplace
+### 🔌 Integrações
+APIs, webhooks, pagamentos, WhatsApp e serviços externos.
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Produto & limites de dados
-
-- Autenticação e acesso baseado em roles
-- Supabase RLS / dados isolados por empresa
-- Mini-CRMs e áreas administrativas
-- Ingestão de CSV/arquivos e métricas persistidas
-- Sistemas híbridos web + desktop
+### 🧩 Sistemas de negócio
+SaaS, ferramentas internas, CRMs e dashboards operacionais.
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" valign="top">
 
-### Correção financeira
-
-- Processamento idempotente
-- Proteção contra processamento duplicado
-- Fluxos de refund/reversal
-- Regras de alocação multi-vendedor
-- Testes automatizados para lógica crítica de negócio
+### ✦ IA aplicada
+Agentes de voz, qualificação de leads e fluxos assistidos por IA.
 
 </td>
 </tr>
@@ -92,66 +58,165 @@ Estes são os projetos que melhor representam como eu trabalho hoje.
 
 ---
 
-## Como construo
+## Trabalhos em destaque
 
-**1. Entender a operação** — mapear o fluxo real, restrições e pontos de falha.  
-**2. Definir o menor escopo confiável** — evitar especificação gigante antes de provar o fluxo principal.  
-**3. Entregar uma versão funcional** — algo que possa ser testado no contexto real de operação.  
-**4. Validar comportamento real** — usar logs, casos de borda e feedback em vez de assumir que o caminho feliz basta.  
-**5. Endurecer o sistema** — recuperação, validação, permissões, proteção contra duplicidade e visibilidade operacional.  
-**6. Documentar e evoluir** — deixar a próxima mudança mais fácil que a anterior.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="./case-studies/lead-tracking-crm.md">
+  <img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" />
+</a>
 
-Essa abordagem aparece nos case studies acima: o trabalho não é só implementar funcionalidades, mas deixar o sistema **operável, diagnosticável e sustentável**.
+### UTMZAP — Lead Tracking & CRM
+
+Sistema de atribuição de leads para agências, combinando links rastreáveis, captura de UTMs, fluxos de WhatsApp e mini-CRM.
+
+**Electron · React · TypeScript · Next.js · Supabase · PostgreSQL**
+
+[Ver case study →](./case-studies/lead-tracking-crm.md)
+
+</td>
+<td width="50%" valign="top">
+<a href="./case-studies/ai-voice-operations.md">
+  <img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" />
+</a>
+
+### AI Voice Operations — Sophie
+
+Recepcionista com IA para uma empresa de serviços nos EUA, atendendo chamadas, qualificando leads e enviando resumos estruturados para a equipe no WhatsApp.
+
+**Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp**
+
+[Ver case study →](./case-studies/ai-voice-operations.md)
+
+</td>
+</tr>
+</table>
+
+### Outros sistemas
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### Distributed Browser Automation
+Agentes remotos, controle centralizado, agendamento, recuperação e automações de navegador de longa duração.
+
+[Case study →](./case-studies/distributed-browser-automation.md)
+
+</td>
+<td width="33%" valign="top">
+
+#### Marketplace Payment Infrastructure
+Split multi-vendedor, regras financeiras, idempotência e tratamento de refunds/reversals.
+
+[Case study →](./case-studies/marketplace-payment-infrastructure.md)
+
+</td>
+<td width="33%" valign="top">
+
+#### SaaS Benchmarking Platform
+Autenticação, ingestão de CSV, processamento de métricas, dashboards, roles e área administrativa protegida.
+
+[Case study →](./case-studies/saas-benchmarking-platform.md)
+
+</td>
+</tr>
+</table>
 
 ---
 
-## Stack principal
+## Tecnologias principais
 
-| Área | Tecnologias |
-|---|---|
-| **Backend** | Python, FastAPI, Flask, Django, PHP |
-| **Frontend / Desktop** | TypeScript, React, Next.js, Electron |
-| **Dados** | PostgreSQL, Supabase, SQL, ETL |
-| **Automação** | Playwright, Selenium, jobs agendados, fluxos de navegador |
-| **Infraestrutura** | Docker, Linux/VPS, Vercel, Cloudflare |
-| **Integrações** | APIs REST, Webhooks, WhatsApp, Vapi, provedores de pagamento |
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-111111?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Supabase-111111?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
+</p>
+
+<p align="center"><strong>Web · Desktop · APIs · Automação · Infraestrutura · Integrações</strong></p>
 
 ---
 
-## Código público
+## Como eu trabalho
 
-Meus trabalhos comerciais mais fortes estão representados pelos case studies acima. Estes repositórios são públicos porque o código pode ser analisado sem expor projetos de cliente:
+<p align="center">
+  <strong>Entender a operação → definir o menor escopo confiável → entregar → validar → fortalecer → evoluir</strong>
+</p>
+
+<p align="center">
+  Prefiro uma primeira versão útil e com limites claros a uma especificação enorme que nunca chega em produção.
+</p>
+
+---
+
+<details>
+<summary><strong>Profundidade técnica</strong></summary>
+<br />
+
+### Confiabilidade & automação
+- Recuperação de navegador/sessão em agentes de longa duração
+- Regras de concorrência e intervalo mínimo
+- Execução agendada e controle de estado
+- Logs e visibilidade operacional
+- Agentes remotos com controle centralizado
+
+### APIs & integrações
+- APIs REST e consumidores de webhook
+- Handoffs com WhatsApp e agentes de voz
+- Limitações de provedores e tratamento de falhas
+- Validação server-side e segurança de redirects
+- Integrações financeiras e marketplaces
+
+### Produto & dados
+- Autenticação e acesso por função
+- Supabase RLS / dados isolados por empresa
+- Mini-CRMs e áreas administrativas
+- Ingestão de CSV/arquivos e métricas persistidas
+- Sistemas híbridos web + desktop
+
+### Correção financeira
+- Processamento idempotente
+- Proteção contra duplicidade
+- Fluxos de refund/reversal
+- Regras de divisão multi-vendedor
+- Testes automatizados em lógica crítica de negócio
+
+</details>
+
+<details>
+<summary><strong>Código público</strong></summary>
+<br />
 
 | Repositório | O que pode ser analisado |
 |---|---|
-| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Coleta agendada, integração com DeFiLlama, entrega no Telegram, regras de alerta e fluxo de assinatura. |
-| **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Roteamento assíncrono com Telethon, regras de origem/destino, tópicos e fluxos agendados. |
-| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Camada Flask que recebe eventos e encaminha notificações estruturadas ao Telegram. |
+| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Coleta agendada, integração DeFiLlama, entrega via Telegram, regras de alerta e fluxo de assinatura. |
+| **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Roteamento assíncrono no Telegram com Telethon, regras de origem/destino, tópicos e fluxos agendados. |
+| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Camada Flask que recebe eventos e encaminha notificações estruturadas para o Telegram. |
 
-<details>
-<summary><strong>Trabalhos anteriores em Dados / BI</strong></summary>
-<br />
-Minha trajetória também inclui SQL, ETL, Excel e Power BI. Esses repositórios continuam públicos como parte do histórico, mas meu posicionamento atual está centrado em sistemas de software, automação e integrações.
+Repositórios comerciais/de clientes permanecem privados quando contêm código proprietário ou detalhes operacionais sensíveis.
+
 </details>
 
 ---
 
 ## Disponível para
 
-- Projetos freelance de desenvolvimento
-- Contratos remotos
-- Automação e integrações
-- Implementação de produtos / MVPs full-stack
-- Apoio técnico de implementação para agências e software houses
+<p align="center">
+  <strong>Projetos freelance · Contratos remotos · Automação · Integrações · Desenvolvimento Full-Stack</strong>
+</p>
 
-**Baseado no Brasil · disponível para trabalho remoto.**
+<p align="center">
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Vamos%20construir%20algo-FF6A00?style=for-the-badge" alt="Vamos construir algo" /></a>
+</p>
 
----
-
-## Contato
-
-**LinkedIn:** [linkedin.com/in/karlos-sanchez](https://www.linkedin.com/in/karlos-sanchez/)  
-**Email:** [karloseduardosanchez@hotmail.com](mailto:karloseduardosanchez@hotmail.com)
-
-### Systems that work.
-*De processo manual a software pronto para produção.*
+<p align="center">
+  <strong>Systems that work.</strong><br />
+  <em>De processo manual a software pronto para produção.</em>
+</p>
