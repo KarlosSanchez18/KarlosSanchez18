@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>Eu construo software para operações que ainda dependem de abas, planilhas, WhatsApp e verificações manuais.</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=750&color=FF6A00&center=true&vCenter=true&repeat=true&width=900&height=42&lines=%3E+rastreando+uma+UTM+antes+do+WhatsApp+abrir...;%3E+recuperando+um+worker+de+navegador+ap%C3%B3s+falha...;%3E+deixando+webhooks+de+pagamento+idempotentes...;%3E+transformando+um+handoff+manual+em+software..." alt="Terminal animado mostrando problemas reais de engenharia" />
 </p>
 
 <p align="center">
@@ -19,93 +19,73 @@
 
 <br />
 
-## O que eu realmente faço
+## Eu gosto da parte antes de o software parecer óbvio
 
-Boa parte do meu trabalho começa antes de existir uma especificação bonita de software.
+Boa parte do trabalho que pego começa como uma rotina bagunçada, não como uma especificação perfeita: alguém abre três sistemas, copia um valor, confere uma planilha, manda uma mensagem no WhatsApp e precisa lembrar de voltar depois.
 
-Normalmente já existe um processo. Alguém abre alguns sistemas, copia uma informação, confere outra, manda uma mensagem, espera, precisa lembrar de voltar depois — e tudo funciona porque aquela pessoa sabe onde estão todas as pontas soltas.
+Normalmente é aí que existe algo útil para automatizar.
 
-É justamente essa parte que eu gosto de transformar em software.
-
-Trabalho com **aplicações web e desktop, APIs, automação de navegador, fluxos com WhatsApp, pagamentos e operações assistidas por IA**. A stack muda. O padrão não: tirar trabalho repetitivo, conectar o que está separado e deixar o resultado confiável o bastante para ser usado todos os dias.
+Construo **sistemas web e desktop, APIs, automações de navegador, fluxos de pagamento e operações assistidas por IA**. A stack muda de projeto para projeto; o objetivo não: menos handoffs frágeis, menos trabalho repetitivo e algo que realmente possa ser operado todos os dias.
 
 ---
 
-## Dois projetos explicam melhor do que uma lista de tecnologias
+## Trabalhos selecionados
 
-### UTMZAP — a origem do lead não deveria sumir quando o WhatsApp abre
+### UTMZAP — mantendo a atribuição viva quando o lead vai para o WhatsApp
 
 <p align="center">
   <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="96%" alt="UTMZAP — Lead Tracking e CRM" /></a>
 </p>
 
-Uma agência precisava saber de onde o lead veio **antes** de a conversa ir para o WhatsApp. Eu construí o fluxo em volta desse problema: links rastreáveis de campanha, captura de UTMs/identificadores de anúncio, eventos de clique e lead, portal do cliente e um mini-CRM para acompanhar o que aconteceu depois.
+Uma agência precisava que o contexto da campanha sobrevivesse à ida para o WhatsApp. Construí o fluxo em volta desse ponto: links rastreáveis, captura de UTM/identificadores de anúncio, eventos de clique e lead, portal do cliente e um mini-CRM para a equipe trabalhar depois.
 
-<sub>Electron · React · TypeScript · Next.js · Supabase · PostgreSQL</sub>
+`Electron` `React` `TypeScript` `Next.js` `Supabase` `PostgreSQL`
 
 **[Abrir o case →](./case-studies/lead-tracking-crm.md)**
 
 <br />
 
-### Sophie — o telefone toca, a equipe recebe só a parte útil
+### Sophie — o telefone toca, a equipe recebe a parte útil
 
 <p align="center">
   <a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="96%" alt="Sophie — AI Voice Operations" /></a>
 </p>
 
-Para uma empresa de limpeza nos EUA, desenvolvi uma assistente de voz receptiva que atende a chamada, pergunta o que a empresa realmente precisa saber e envia um resumo estruturado para o WhatsApp da equipe depois da conversa.
+Para uma empresa de limpeza nos EUA, desenvolvi uma assistente de voz receptiva que qualifica o cliente, captura as informações que a operação precisa e envia um resumo estruturado no WhatsApp da equipe depois da ligação.
 
-O objetivo nunca foi só “fazer uma IA falar”. A parte útil está no que acontece em volta da chamada: qualificação, captura estruturada, webhooks, processamento pós-ligação, entrega e a infraestrutura mantendo o fluxo de pé.
+A parte interessante está em volta da conversa: captura estruturada, webhooks, processamento pós-ligação, entrega e a infraestrutura mantendo o handoff funcionando.
 
-<sub>Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp</sub>
+`Vapi` `Webhooks` `APIs` `Docker` `Linux/VPS` `WhatsApp`
 
 **[Abrir o case →](./case-studies/ai-voice-operations.md)**
 
 ---
 
-## O trabalho menos fotogênico
+## Nem todo sistema útil rende um screenshot bonito
 
-Nem tudo que eu construo vira um screenshot bonito. Parte do trabalho em que mais consigo ajudar fica por trás da tela:
-
-- **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** — agentes remotos, execuções agendadas, recuperação de sessão e controle centralizado para automações longas de navegador.
-- **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** — split WooCommerce/Dokan/Asaas, proteção contra duplicidade, refunds/reversals e regras financeiras.
-- **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** — autenticação, limites por empresa/usuário, processamento de CSV, métricas, dashboards e área administrativa protegida.
-
----
-
-## O tipo de frase que normalmente chega para mim
-
-> “A gente faz isso manualmente todo dia.”  
-> “Esses dois sistemas não conversam.”  
-> “A automação funciona… até travar.”  
-> “O lead chegou, mas a gente perdeu de onde ele veio.”  
-> “Na prática esse provedor não se comporta igual à documentação.”
-
-Isso me interessa bem mais do que construir mais uma demo que só funciona no caminho feliz.
+| | Sistema | A parte que realmente importava |
+|---|---|---|
+| ⚙️ | **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Agentes remotos, execuções agendadas, regras de concorrência, recuperação de sessão e controle central para automações longas. |
+| ↔️ | **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Split WooCommerce/Dokan/Asaas, proteção contra duplicidade, refunds/reversals e casos financeiros chatos. |
+| ◫ | **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Autenticação, limites por empresa/usuário, ingestão de CSV, métricas persistidas, dashboards e fluxos administrativos protegidos. |
 
 ---
+
+## O tipo de mensagem que costuma virar projeto
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=1000&color=D6D0C8&center=true&vCenter=true&repeat=true&width=900&height=42&lines=%22A+gente+faz+isso+manualmente+todo+dia.%22;%22Esses+dois+sistemas+n%C3%A3o+conversam.%22;%22A+automa%C3%A7%C3%A3o+funciona...+at%C3%A9+travar.%22;%22O+lead+chegou%2C+mas+a+gente+perdeu+de+onde+veio.%22" alt="Exemplos animados de problemas que viram projetos de software" />
+</p>
 
 <details>
-<summary><strong>Por baixo do capô — ferramentas e parte técnica</strong></summary>
+<summary><strong>Por baixo do capô — ferramentas, código público e parte técnica</strong></summary>
 <br />
 
 **Ferramentas principais:** Python, FastAPI, Flask, Django, TypeScript, React, Next.js, Electron, PostgreSQL, Supabase, Docker, Playwright/Selenium e Linux/VPS.
 
-**Coisas com que lido com frequência:**
+**Coisas com que lido com frequência:** recuperação de sessões longas de navegador, retries e idempotência, autenticação e limites de dados, falhas em webhooks/APIs, logs, casos de pagamento e manter a primeira versão útil pequena o bastante para realmente chegar em produção.
 
-- recuperação de sessões longas de navegador;
-- retries, idempotência e proteção contra duplicidade;
-- autenticação, roles e limites de dados;
-- webhooks e tratamento de falhas em APIs externas;
-- logs e visibilidade suficiente para diagnosticar falhas depois da entrega;
-- casos chatos de pagamento e marketplace;
-- primeiras versões úteis antes de especificações gigantes.
-
-</details>
-
-<details>
-<summary><strong>Código público</strong></summary>
-<br />
+### Código público
 
 | Repositório | O que pode ser analisado |
 |---|---|
@@ -117,13 +97,21 @@ Repositórios comerciais/de clientes continuam privados quando possuem código p
 
 </details>
 
+<br />
+
+<p align="center"><sub>o pixel laranja está comendo meu gráfico de contribuições ↓</sub></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake.svg" />
+  <img alt="Snake laranja animada passando pelo gráfico de contribuições de Karlos Sanchez" src="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake-dark.svg" width="100%" />
+</picture>
+
 ---
 
 <h2 align="center">Tem um processo que já não deveria ser manual?</h2>
 
-<p align="center">
-  Me manda a versão bagunçada. A gente descobre o que realmente vale transformar em software.
-</p>
+<p align="center">Me manda a versão bagunçada. A gente descobre o que realmente vale transformar em software.</p>
 
 <p align="center">
   <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/ME%20MANDA%20UM%20EMAIL-FF6A00?style=for-the-badge" alt="Me manda um email" /></a>
