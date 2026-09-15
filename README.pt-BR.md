@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
+  <img src="./assets/banner-github.png" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
 <h3 align="center">Desenvolvedor Full-Stack · Automação · Integrações · Sistemas de Negócio</h3>
@@ -26,7 +26,7 @@
 ### UTMZAP — Lead Tracking & CRM
 
 <p align="center">
-  <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="96%" alt="UTMZAP — Lead Tracking e CRM" /></a>
+  <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/capa.png" width="90%" alt="UTMZAP — Lead Tracking e CRM" /></a>
 </p>
 
 Sistema de atribuição de leads e mini-CRM para agências que precisam preservar o contexto da campanha antes de a conversa ir para o WhatsApp. Inclui links rastreáveis, captura de UTM/identificadores de anúncio, eventos de clique e lead, portal do cliente e acompanhamento dos contatos.
@@ -40,7 +40,7 @@ Sistema de atribuição de leads e mini-CRM para agências que precisam preserva
 ### Sophie — AI Voice Operations
 
 <p align="center">
-  <a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="96%" alt="Sophie — AI Voice Operations" /></a>
+  <a href="./case-studies/ai-voice-operations.md"><img src="./assets/ai-voice.png" width="90%" alt="Sophie — AI Voice Operations" /></a>
 </p>
 
 Assistente de voz receptiva desenvolvida para uma empresa de serviços nos EUA. Atende ligações, qualifica leads, coleta informações estruturadas e envia um resumo para a equipe pelo WhatsApp depois de cada conversa.
