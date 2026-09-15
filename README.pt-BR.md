@@ -7,82 +7,84 @@
   <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
-## Desenvolvedor Full-Stack construindo software operacional
+## Desenvolvedor Full-Stack focado em automação, integrações e sistemas de negócio
 
-Transformo **processos manuais, ferramentas desconectadas e operações frágeis** em software que pode ser realmente operado: aplicações web e desktop, APIs, automações, integrações financeiras, fluxos com IA e produtos SaaS.
+Construo software em cima de **problemas operacionais reais**: processos manuais, ferramentas desconectadas, fluxos frágeis e sistemas que precisam continuar funcionando depois da primeira demo.
 
-Meus trabalhos recentes não são centrados em projetos de tutorial. Incluem sistemas usados em **atribuição de leads, automação distribuída entre servidores, pagamentos de marketplace, atendimento por voz com IA e benchmarking de atendimento**.
+Costumo assumir projetos desde a **definição técnica e modelagem de dados até implementação, deploy, validação e evolução**. Meus trabalhos recentes incluem atribuição de leads, automação distribuída entre servidores, pagamentos de marketplace, atendimento por voz com IA e benchmarking SaaS.
 
 **Foco atual:** Python · TypeScript · APIs · Automação · Integrações · Sistemas de negócio
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contato-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-Contato-2B2B2B?style=flat-square)](mailto:karloseduardosanchez@hotmail.com)
 ![Local](https://img.shields.io/badge/Brasil-Remoto-2B2B2B?style=flat-square)
 
 ---
 
-## Sistemas selecionados
+## Provas de trabalho
 
-| Sistema | O que resolve | Foco de engenharia | Stack |
+Estes são os projetos que melhor representam como eu trabalho hoje.
+
+| Sistema | Entrega / validação | Trabalho de engenharia | Stack |
 |---|---|---|---|
-| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | Rastreia origem de campanha/UTM antes do lead chegar ao WhatsApp e organiza o resultado em um mini-CRM. | Arquitetura desktop + web, endpoints públicos de tracking, dados de atribuição, autenticação/RLS e fluxo de leads. | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
-| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Atende chamadas, qualifica leads, coleta dados estruturados e envia o resultado para a equipe pelo WhatsApp. | Orquestração de voz com IA, webhooks, outputs estruturados, handoff operacional e deploy em VPS. | Vapi, APIs, Webhooks, Docker, Linux/VPS |
-| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Executa coleta operacional em navegador entre agentes remotos com controle centralizado. | Concorrência, agendamento, recuperação de sessão, estado de execução, logs e confiabilidade de longa duração. | Python, Playwright, Django, PostgreSQL, Linux/Windows |
-| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Implementa split multi-vendedor e regras financeiras dentro de um marketplace WooCommerce. | Idempotência, proteção contra duplicidade, refunds/reversals, limitações do provedor e testes automatizados. | PHP, WordPress, WooCommerce, Dokan, API Asaas |
-| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Transforma arquivos de atendimento em métricas persistidas, dashboards e análise por empresa. | Autenticação, roles, trial, processamento de CSV, rotas protegidas e persistência. | Next.js, TypeScript, Supabase, PostgreSQL |
+| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | MVP funcional entregue | Rotas públicas de tracking, captura de UTM/`gclid`/`fbclid`, validação de redirecionamento, persistência de cliques/leads, mini-CRM, Supabase Auth + RLS | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
+| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Primeira versão funcional validada com cenários realistas de chamada | Fluxo de voz receptivo, qualificação, outputs estruturados, webhook pós-ligação, handoff no WhatsApp e camada de integração em Docker/VPS | Vapi, Webhooks, APIs, Docker, Linux/VPS, WhatsApp |
+| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Execuções remotas completas validadas | Agentes Windows remotos, servidor Ubuntu de coordenação, regras de concorrência, agendamento, recuperação de sessão, estado de execução, logs e persistência PostgreSQL | Python, Playwright, Django, PostgreSQL, Linux/Windows |
+| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Fluxo de split e núcleo do plugin implementados e testados | Regras financeiras multi-vendedor, validação, idempotência, proteção contra duplicidade, refunds/reversals, compatibilidade HPOS e testes automatizados | PHP, WordPress, WooCommerce, Dokan, API Asaas |
+| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Primeira fase do produto entregue | Autenticação, escopo empresa/usuário, roles, trial de 7 dias, ingestão de CSV, persistência de métricas, dashboards e rotas administrativas protegidas | Next.js, TypeScript, Supabase, PostgreSQL |
 
-> Repositórios comerciais permanecem privados quando contêm código específico de cliente ou detalhes operacionais. Os case studies documentam arquitetura, decisões de engenharia e responsabilidades sem expor código proprietário ou dados sensíveis.
+> Repositórios de clientes e projetos comerciais permanecem privados quando contêm código proprietário, credenciais, regras de negócio ou detalhes operacionais. Os case studies documentam arquitetura, responsabilidades e decisões técnicas sem expor material sensível.
 
 ---
 
-## Onde atuo tecnicamente
+## Profundidade de engenharia
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Backend & integrações
+### Confiabilidade & automação
 
-- APIs REST e consumidores de webhook
-- Integrações com serviços externos
-- Autenticação e limites de permissão
-- Pagamentos e fluxos financeiros
-- Validação server-side e processamento de dados
+- Recuperação de navegador/sessão em agentes de longa duração
+- Regras de concorrência e intervalo mínimo
+- Execuções agendadas e controle de estado
+- Logs e visibilidade operacional
+- Agentes remotos com controle centralizado
 
 </td>
 <td width="50%" valign="top">
 
-### Automação & operação
+### APIs & integrações
 
-- Automação de navegador com Playwright/Selenium
-- Jobs agendados e processos de longa duração
-- Agentes remotos e fluxo de controle central
-- Recuperação de falhas e sessão
-- Logs, alertas e visibilidade operacional
+- APIs REST e consumidores de webhook
+- Handoff entre WhatsApp e agentes de voz
+- Tratamento de limitações e falhas de provedores
+- Validação server-side e segurança de redirecionamentos
+- Integrações financeiras e de marketplace
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Sistemas de produto
+### Produto & limites de dados
 
-- SaaS e ferramentas internas
+- Autenticação e acesso baseado em roles
+- Supabase RLS / dados isolados por empresa
 - Mini-CRMs e áreas administrativas
-- Aplicações híbridas web + desktop
-- Dashboards conectados a fluxos reais
-- Ingestão de arquivos e pipelines de métricas
+- Ingestão de CSV/arquivos e métricas persistidas
+- Sistemas híbridos web + desktop
 
 </td>
 <td width="50%" valign="top">
 
-### IA aplicada
+### Correção financeira
 
-- Agentes de voz em operações receptivas
-- Qualificação e coleta estruturada de leads
-- Handoff entre IA e equipe humana
-- Entrega de resumos via WhatsApp
-- IA como parte do sistema, não como produto inteiro
+- Processamento idempotente
+- Proteção contra processamento duplicado
+- Fluxos de refund/reversal
+- Regras de alocação multi-vendedor
+- Testes automatizados para lógica crítica de negócio
 
 </td>
 </tr>
@@ -90,19 +92,16 @@ Meus trabalhos recentes não são centrados em projetos de tutorial. Incluem sis
 
 ---
 
-## Preocupações de produção que levo a sério
+## Como construo
 
-A parte interessante do software normalmente começa depois que o caminho feliz funciona. Nos projetos recentes, precisei lidar com:
+**1. Entender a operação** — mapear o fluxo real, restrições e pontos de falha.  
+**2. Definir o menor escopo confiável** — evitar especificação gigante antes de provar o fluxo principal.  
+**3. Entregar uma versão funcional** — algo que possa ser testado no contexto real de operação.  
+**4. Validar comportamento real** — usar logs, casos de borda e feedback em vez de assumir que o caminho feliz basta.  
+**5. Endurecer o sistema** — recuperação, validação, permissões, proteção contra duplicidade e visibilidade operacional.  
+**6. Documentar e evoluir** — deixar a próxima mudança mais fácil que a anterior.
 
-- **idempotência e proteção contra duplicidade** em fluxos financeiros e integrações;
-- **concorrência e intervalos mínimos de execução** em automação distribuída;
-- **recuperação de navegador e sessão** em agentes de longa duração;
-- **autenticação, roles e limites de acesso por linha/empresa** em aplicações SaaS;
-- **limitações de provedores e APIs externas** tratadas como parte do contrato do sistema;
-- **deploy, logs e visibilidade operacional** para que falhas possam ser diagnosticadas depois da entrega;
-- **testes em regras financeiras e de negócio** onde um erro silencioso custa caro.
-
-É esse tipo de trabalho que quero que meu GitHub represente.
+Essa abordagem aparece nos case studies acima: o trabalho não é só implementar funcionalidades, mas deixar o sistema **operável, diagnosticável e sustentável**.
 
 ---
 
@@ -111,7 +110,7 @@ A parte interessante do software normalmente começa depois que o caminho feliz 
 | Área | Tecnologias |
 |---|---|
 | **Backend** | Python, FastAPI, Flask, Django, PHP |
-| **Frontend** | TypeScript, React, Next.js, Electron |
+| **Frontend / Desktop** | TypeScript, React, Next.js, Electron |
 | **Dados** | PostgreSQL, Supabase, SQL, ETL |
 | **Automação** | Playwright, Selenium, jobs agendados, fluxos de navegador |
 | **Infraestrutura** | Docker, Linux/VPS, Vercel, Cloudflare |
@@ -121,45 +120,29 @@ A parte interessante do software normalmente começa depois que o caminho feliz 
 
 ## Código público
 
-Estes repositórios são públicos porque podem ser avaliados sem expor código de cliente:
+Meus trabalhos comerciais mais fortes estão representados pelos case studies acima. Estes repositórios são públicos porque o código pode ser analisado sem expor projetos de cliente:
 
 | Repositório | O que pode ser analisado |
 |---|---|
-| **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Roteamento assíncrono no Telegram com Telethon, regras de origem/destino, tópicos e fluxos agendados. |
-| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Pequena camada Flask que recebe eventos e encaminha notificações estruturadas para o Telegram. |
-| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Coleta agendada, entrega no Telegram, integração com DeFiLlama, regras de alerta e fluxo de assinatura. |
+| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Coleta agendada, integração com DeFiLlama, entrega no Telegram, regras de alerta e fluxo de assinatura. |
+| **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Roteamento assíncrono com Telethon, regras de origem/destino, tópicos e fluxos agendados. |
+| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Camada Flask que recebe eventos e encaminha notificações estruturadas ao Telegram. |
 
-Meus repositórios anteriores de Dados/BI continuam disponíveis como parte da trajetória, mas **não são o centro do meu posicionamento atual**.
-
----
-
-## Como entrego
-
-```text
-Entender a operação
-        ↓
-Definir o menor escopo confiável
-        ↓
-Construir uma versão funcional
-        ↓
-Validar com uso real
-        ↓
-Endurecer os caminhos de falha
-        ↓
-Documentar e evoluir
-```
-
-Prefiro uma primeira versão que funciona, com limites claros, a uma especificação gigante que nunca chega em produção. A partir daí, evoluo o sistema com base em comportamento real, casos de borda e feedback de operação.
+<details>
+<summary><strong>Trabalhos anteriores em Dados / BI</strong></summary>
+<br />
+Minha trajetória também inclui SQL, ETL, Excel e Power BI. Esses repositórios continuam públicos como parte do histórico, mas meu posicionamento atual está centrado em sistemas de software, automação e integrações.
+</details>
 
 ---
 
-## O que estou aberto a fazer
+## Disponível para
 
 - Projetos freelance de desenvolvimento
 - Contratos remotos
 - Automação e integrações
-- Desenvolvimento de produto full-stack
-- Apoio técnico para agências/software houses que precisam de capacidade de implementação
+- Implementação de produtos / MVPs full-stack
+- Apoio técnico de implementação para agências e software houses
 
 **Baseado no Brasil · disponível para trabalho remoto.**
 
