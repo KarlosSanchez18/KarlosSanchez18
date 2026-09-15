@@ -16,7 +16,7 @@ My recent work is not centered on tutorial projects. It includes systems used fo
 **Current focus:** Python · TypeScript · APIs · Automation · Integrations · Business Systems
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contact-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez51@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez@hotmail.com)
 ![Location](https://img.shields.io/badge/Brazil-Remote-2B2B2B?style=flat-square)
 
 ---
@@ -168,7 +168,7 @@ I prefer a working first version with clear boundaries over an oversized specifi
 ## Contact
 
 **LinkedIn:** [linkedin.com/in/karlos-sanchez](https://www.linkedin.com/in/karlos-sanchez/)  
-**Email:** [karloseduardosanchez51@gmail.com](mailto:karloseduardosanchez51@gmail.com)
+**Email:** [karloseduardosanchez@hotmail.com](mailto:karloseduardosanchez@hotmail.com)
 
 ### Systems that work.
 *From manual process to production-ready software.*
