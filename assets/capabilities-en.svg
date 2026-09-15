@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="390" viewBox="0 0 1400 390" role="img" aria-label="Capabilities: Automation, Integrations, Business Systems, Applied AI">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111214"/><stop offset="1" stop-color="#17181b"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff6a00"/><stop offset="1" stop-color="#ff8a34"/></linearGradient>
+  </defs>
+  <rect width="1400" height="390" rx="24" fill="#0b0b0b"/>
+  <text x="54" y="72" fill="#f3efe8" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">WHAT I BUILD</text>
+  <rect x="54" y="91" width="70" height="4" rx="2" fill="url(#accent)"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <g transform="translate(54,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">⚙</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Automation</text><text x="30" y="141" fill="#aaa59f" font-size="17">Manual workflows turned</text><text x="30" y="166" fill="#aaa59f" font-size="17">into reliable software.</text></g>
+    <g transform="translate(382,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">↔</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Integrations</text><text x="30" y="141" fill="#aaa59f" font-size="17">APIs, webhooks, payments,</text><text x="30" y="166" fill="#aaa59f" font-size="17">WhatsApp and services.</text></g>
+    <g transform="translate(710,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">▦</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Business Systems</text><text x="30" y="141" fill="#aaa59f" font-size="17">SaaS, internal tools, CRMs</text><text x="30" y="166" fill="#aaa59f" font-size="17">and operational products.</text></g>
+    <g transform="translate(1038,128)"><rect width="300" height="205" rx="18" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.10"/><circle cx="48" cy="48" r="24" fill="#ff6a00" opacity="0.16"/><text x="48" y="57" text-anchor="middle" fill="#ff7a1f" font-size="28">✦</text><text x="30" y="104" fill="#f3efe8" font-size="25" font-weight="800">Applied AI</text><text x="30" y="141" fill="#aaa59f" font-size="17">Voice agents, qualification</text><text x="30" y="166" fill="#aaa59f" font-size="17">and AI-assisted workflows.</text></g>
+  </g>
+</svg>
