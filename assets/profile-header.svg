@@ -1,44 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="400" viewBox="0 0 1400 400" role="img" aria-labelledby="title desc">
   <title id="title">Karlos Sanchez — Software Systems &amp; Automation</title>
-  <desc id="desc">Dark editorial header for Karlos Sanchez's GitHub profile.</desc>
+  <desc id="desc">Editorial dark GitHub profile header with Karlos Sanchez brand identity.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b0b0b"/>
-      <stop offset="0.72" stop-color="#111214"/>
-      <stop offset="1" stop-color="#171717"/>
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset="0.62" stop-color="#101113"/>
+      <stop offset="1" stop-color="#181818"/>
     </linearGradient>
-    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
-      <path d="M56 0H0V56" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="1"/>
+    <linearGradient id="orangeFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6a00"/>
+      <stop offset="1" stop-color="#ff8a34"/>
+    </linearGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
     </pattern>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
   </defs>
 
-  <rect width="1400" height="360" rx="22" fill="url(#bg)"/>
-  <rect width="1400" height="360" rx="22" fill="url(#grid)"/>
+  <rect width="1400" height="400" rx="24" fill="url(#bg)"/>
+  <rect width="1400" height="400" rx="24" fill="url(#grid)"/>
 
-  <path d="M1030 -20 L1400 -20 L1400 360 L1180 360 Z" fill="#ffffff" opacity="0.035"/>
-  <path d="M1180 -20 L1400 -20 L1400 360 L1270 360 Z" fill="#ffffff" opacity="0.045"/>
-  <path d="M1260 0 L1400 0 L1400 160 Z" fill="#ff6a00" opacity="0.16"/>
-  <line x1="1040" y1="55" x2="1360" y2="55" stroke="#ffffff" stroke-opacity="0.08"/>
-  <line x1="1040" y1="110" x2="1360" y2="110" stroke="#ffffff" stroke-opacity="0.08"/>
-  <line x1="1095" y1="20" x2="1095" y2="330" stroke="#ffffff" stroke-opacity="0.08"/>
-  <line x1="1150" y1="20" x2="1150" y2="330" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="1300" cy="70" r="120" fill="#ff6a00" opacity="0.06" filter="url(#softGlow)"/>
+  <path d="M1055 -20 L1400 -20 L1400 400 L1225 400 Z" fill="#ffffff" opacity="0.028"/>
+  <path d="M1210 -20 L1400 -20 L1400 400 L1310 400 Z" fill="#ffffff" opacity="0.045"/>
+  <path d="M1280 0 L1400 0 L1400 145 Z" fill="#ff6a00" opacity="0.18"/>
 
-  <g transform="translate(72,70)">
-    <path d="M0 0 H34 V83 L103 0 H145 L84 73 L149 150 H106 L61 97 L34 129 V150 H0 Z" fill="#f3efe8"/>
-    <path d="M34 96 L61 72 L61 125 L34 145 Z" fill="#ff6a00"/>
+  <line x1="1015" y1="52" x2="1360" y2="52" stroke="#ffffff" stroke-opacity="0.07"/>
+  <line x1="1015" y1="104" x2="1360" y2="104" stroke="#ffffff" stroke-opacity="0.07"/>
+  <line x1="1070" y1="22" x2="1070" y2="360" stroke="#ffffff" stroke-opacity="0.07"/>
+  <line x1="1122" y1="22" x2="1122" y2="360" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <g transform="translate(68,80)">
+    <path d="M0 0 H38 V91 L114 0 H160 L93 80 L164 164 H117 L67 106 L38 141 V164 H0 Z" fill="#f3efe8"/>
+    <path d="M38 105 L67 78 L67 137 L38 158 Z" fill="url(#orangeFade)"/>
   </g>
 
-  <text x="260" y="108" fill="#f3efe8" font-family="Georgia, 'Times New Roman', serif" font-size="66" font-weight="700">Karlos Sanchez</text>
-  <text x="264" y="151" fill="#c8c3bb" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="7">SOFTWARE SYSTEMS &amp; AUTOMATION</text>
+  <rect x="242" y="72" width="58" height="4" rx="2" fill="url(#orangeFade)"/>
+  <text x="242" y="144" fill="#f3efe8" font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" letter-spacing="-2">Karlos Sanchez</text>
+  <text x="247" y="184" fill="#bbb6ae" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="7">SOFTWARE SYSTEMS · AUTOMATION · INTEGRATIONS</text>
 
-  <line x1="264" y1="202" x2="320" y2="202" stroke="#ff6a00" stroke-width="4"/>
-  <text x="350" y="216" fill="#f3efe8" font-family="Georgia, 'Times New Roman', serif" font-size="38">Systems that <tspan fill="#ff6a00" font-weight="700">work.</tspan></text>
-  <text x="264" y="258" fill="#96928c" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">FROM MANUAL PROCESS TO PRODUCTION-READY SOFTWARE</text>
+  <text x="242" y="265" fill="#f3efe8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-1.5">Systems that <tspan fill="#ff6a00">work.</tspan></text>
+  <text x="245" y="305" fill="#8f8a84" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="500" letter-spacing="1.6">FROM MANUAL PROCESS TO PRODUCTION-READY SOFTWARE</text>
 
-  <text x="1085" y="235" fill="#f3efe8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">IDEAS</text>
-  <text x="1085" y="265" fill="#f3efe8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">AUTOMATE</text>
-  <text x="1085" y="295" fill="#f3efe8" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="5">SCALE</text>
-  <line x1="1085" y1="315" x2="1135" y2="315" stroke="#ff6a00" stroke-width="3"/>
+  <g transform="translate(1085,205)">
+    <text x="0" y="0" fill="#f3efe8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5">BUILD</text>
+    <text x="0" y="31" fill="#f3efe8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5">AUTOMATE</text>
+    <text x="0" y="62" fill="#f3efe8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5">INTEGRATE</text>
+    <text x="0" y="93" fill="#f3efe8" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="5">SCALE</text>
+    <rect x="0" y="114" width="62" height="3" rx="1.5" fill="#ff6a00"/>
+  </g>
 
-  <rect x="1" y="1" width="1398" height="358" rx="21" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="1" y="1" width="1398" height="398" rx="23" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
 </svg>
