@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <strong>I build software for operations that are still held together by tabs, spreadsheets, WhatsApp and manual checks.</strong>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2200&pause=750&color=FF6A00&center=true&vCenter=true&repeat=true&width=900&height=42&lines=%3E+tracing+a+lost+UTM+before+WhatsApp+opens...;%3E+recovering+a+browser+worker+after+failure...;%3E+making+payment+webhooks+idempotent...;%3E+turning+a+manual+handoff+into+software..." alt="Animated terminal showing real engineering problems" />
 </p>
 
 <p align="center">
@@ -19,93 +19,73 @@
 
 <br />
 
-## What I actually do
+## I like the part before the software looks obvious
 
-A lot of my work starts before there is a neat software specification.
+A lot of the work I take on starts as a messy routine instead of a clean specification: someone opens three systems, copies a value, checks a spreadsheet, sends a WhatsApp message and remembers to come back later.
 
-There is usually already a process. Someone opens a few systems, copies something, checks something else, sends a message, waits, remembers to come back later — and the whole thing works because that person knows where all the loose pieces are.
+That is usually the useful part to automate.
 
-That is the part I like turning into software.
-
-I work across **web and desktop apps, APIs, browser automation, WhatsApp flows, payments and AI-assisted operations**. The stack changes. The pattern does not: remove repetitive work, connect what is disconnected, and make the result reliable enough to be used every day.
+I build **web and desktop systems, APIs, browser automations, payment flows and AI-assisted operations**. The stack changes from project to project; the goal does not: fewer fragile handoffs, less repetitive work and something people can actually operate every day.
 
 ---
 
-## Two projects explain it better than a stack list
+## Selected work
 
-### UTMZAP — the lead source should not disappear when WhatsApp opens
+### UTMZAP — keeping attribution alive when the lead moves to WhatsApp
 
 <p align="center">
   <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="96%" alt="UTMZAP — Lead Tracking and CRM" /></a>
 </p>
 
-An agency needed to know where a lead came from **before** the conversation moved to WhatsApp. I built the flow around that gap: trackable campaign links, UTM/ad capture, click and lead events, a client portal and a small CRM for the team to follow the lead afterwards.
+An agency needed campaign context to survive the jump into WhatsApp. I built the flow around that gap: trackable links, UTM/ad capture, click and lead events, a client portal and a mini-CRM for the team to work from afterwards.
 
-<sub>Electron · React · TypeScript · Next.js · Supabase · PostgreSQL</sub>
+`Electron` `React` `TypeScript` `Next.js` `Supabase` `PostgreSQL`
 
 **[Open the case study →](./case-studies/lead-tracking-crm.md)**
 
 <br />
 
-### Sophie — the phone rings, the team gets the useful part
+### Sophie — the phone rings, the team receives the useful part
 
 <p align="center">
   <a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="96%" alt="Sophie — AI Voice Operations" /></a>
 </p>
 
-For a cleaning business in the U.S., I built an inbound voice assistant that answers the call, asks for the information the business actually needs and sends the team a structured WhatsApp summary after the conversation.
+For a U.S. cleaning business, I built an inbound voice assistant that qualifies the caller, captures the information the operation needs and sends a structured WhatsApp summary to the team after the call.
 
-The goal was never “make an AI talk”. The useful part is what happens around the call: qualification, structured capture, webhooks, post-call processing, delivery and the infrastructure keeping the flow running.
+The interesting work is around the conversation: structured capture, webhooks, post-call processing, delivery and the infrastructure keeping the handoff alive.
 
-<sub>Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp</sub>
+`Vapi` `Webhooks` `APIs` `Docker` `Linux/VPS` `WhatsApp`
 
 **[Open the case study →](./case-studies/ai-voice-operations.md)**
 
 ---
 
-## The less photogenic work
+## Not every useful system has a pretty screenshot
 
-Not everything I build turns into a nice product screenshot. Some of the work I am most useful for lives behind the screen:
-
-- **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** — remote agents, scheduled runs, session recovery and centralized control for long-running browser jobs.
-- **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** — WooCommerce/Dokan/Asaas payment splitting, duplicate protection, refunds/reversals and financial rules.
-- **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** — authentication, company/user boundaries, CSV processing, metrics, dashboards and protected admin flows.
-
----
-
-## What usually lands on my desk
-
-> “We do this manually every day.”  
-> “These two systems do not talk to each other.”  
-> “The automation works… until it gets stuck.”  
-> “The lead arrived, but we lost where it came from.”  
-> “This provider behaves differently than the docs suggest.”
-
-Those are much more interesting to me than building another demo that only works on the happy path.
+| | System | The part that mattered |
+|---|---|---|
+| ⚙️ | **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Remote agents, scheduled runs, concurrency rules, session recovery and centralized control for long-running browser work. |
+| ↔️ | **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | WooCommerce/Dokan/Asaas split rules, duplicate protection, refunds/reversals and financial edge cases. |
+| ◫ | **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Authentication, company/user boundaries, CSV ingestion, persisted metrics, dashboards and protected admin flows. |
 
 ---
+
+## The kind of message that usually becomes a project
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=1000&color=D6D0C8&center=true&vCenter=true&repeat=true&width=900&height=42&lines=%22We+do+this+manually+every+day.%22;%22These+two+systems+do+not+talk+to+each+other.%22;%22The+automation+works...+until+it+gets+stuck.%22;%22The+lead+arrived%2C+but+we+lost+where+it+came+from.%22" alt="Animated examples of problems that become software projects" />
+</p>
 
 <details>
-<summary><strong>Under the hood — tools and technical depth</strong></summary>
+<summary><strong>Under the hood — tools, public code and technical depth</strong></summary>
 <br />
 
 **Main tools:** Python, FastAPI, Flask, Django, TypeScript, React, Next.js, Electron, PostgreSQL, Supabase, Docker, Playwright/Selenium and Linux/VPS.
 
-**Things I regularly care about:**
+**Things I regularly care about:** recovery for long-running browser sessions, retries and idempotency, authentication and data boundaries, webhook failure handling, logs, payment edge cases and keeping the first useful version small enough to actually ship.
 
-- recovery for long-running browser sessions;
-- retries, idempotency and duplicate protection;
-- authentication, roles and data boundaries;
-- webhooks and external API failure handling;
-- logs and enough visibility to diagnose a failure after delivery;
-- payment and marketplace edge cases;
-- useful first versions before oversized specifications.
-
-</details>
-
-<details>
-<summary><strong>Public code</strong></summary>
-<br />
+### Public code
 
 | Repository | What you can inspect |
 |---|---|
@@ -117,13 +97,21 @@ Commercial/client repositories stay private when they contain proprietary code o
 
 </details>
 
+<br />
+
+<p align="center"><sub>the orange pixel is eating my contribution graph ↓</sub></p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake.svg" />
+  <img alt="Animated orange snake moving through Karlos Sanchez's contribution graph" src="https://raw.githubusercontent.com/KarlosSanchez18/KarlosSanchez18/output/github-snake-dark.svg" width="100%" />
+</picture>
+
 ---
 
 <h2 align="center">Have a process that should not still be manual?</h2>
 
-<p align="center">
-  Send me the messy version. We can figure out what is worth turning into software.
-</p>
+<p align="center">Send me the messy version. We can figure out what is actually worth turning into software.</p>
 
 <p align="center">
   <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/EMAIL%20ME-FF6A00?style=for-the-badge" alt="Email me" /></a>
