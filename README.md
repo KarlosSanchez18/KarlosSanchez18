@@ -7,82 +7,84 @@
   <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
-## Full-Stack Developer building operational software
+## Full-Stack Developer focused on automation, integrations and business systems
 
-I turn **manual workflows, disconnected tools and fragile processes** into software that can actually be operated: web and desktop applications, APIs, automation, payment integrations, AI-assisted workflows and SaaS products.
+I build software around **real operational problems**: manual workflows, disconnected tools, unreliable processes and systems that need to keep working after the first demo.
 
-My recent work is not centered on tutorial projects. It includes systems used for **lead attribution, multi-server browser automation, marketplace payments, AI voice operations and service benchmarking**.
+I usually take projects from **technical definition and data modeling through implementation, deployment, validation and iteration**. Recent work includes lead attribution, distributed browser automation, marketplace payments, AI voice operations and SaaS benchmarking.
 
 **Current focus:** Python · TypeScript · APIs · Automation · Integrations · Business Systems
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karlos-sanchez/)
-[![Email](https://img.shields.io/badge/Email-Contact-2B2B2B?style=flat-square&logo=gmail&logoColor=white)](mailto:karloseduardosanchez@hotmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-2B2B2B?style=flat-square)](mailto:karloseduardosanchez@hotmail.com)
 ![Location](https://img.shields.io/badge/Brazil-Remote-2B2B2B?style=flat-square)
 
 ---
 
-## Selected systems
+## Proof of work
 
-| System | What it solves | Engineering focus | Stack |
+These are the projects that best represent how I work today.
+
+| System | Delivery / validation | Engineering work | Stack |
 |---|---|---|---|
-| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | Tracks campaign/UTM origin before a lead reaches WhatsApp and organizes the result in a mini-CRM. | Desktop + web architecture, public tracking endpoints, attribution data, auth/RLS, lead workflow. | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
-| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Handles inbound calls, qualifies leads, collects structured information and sends the result to the team on WhatsApp. | Voice AI orchestration, webhooks, structured outputs, operational handoff, VPS deployment. | Vapi, APIs, Webhooks, Docker, Linux/VPS |
-| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Runs operational browser collection across remote agents with centralized control. | Concurrency, scheduling, session recovery, run state, logging and long-running reliability. | Python, Playwright, Django, PostgreSQL, Linux/Windows |
-| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Implements multi-vendor payment splitting and financial workflow rules inside a WooCommerce marketplace. | Idempotency, duplicate protection, refunds/reversals, provider constraints and automated tests. | PHP, WordPress, WooCommerce, Dokan, Asaas API |
-| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | Converts uploaded service data into persisted metrics, dashboards and company-scoped analysis. | Authentication, roles, trial rules, CSV processing, protected routes and persistence. | Next.js, TypeScript, Supabase, PostgreSQL |
+| **[UTMZAP — Lead Tracking & CRM](./case-studies/lead-tracking-crm.md)** | Functional MVP delivered | Public tracking routes, UTM/`gclid`/`fbclid` capture, redirect validation, click/lead persistence, mini-CRM, Supabase Auth + RLS | Electron, React, TypeScript, Next.js, Supabase, PostgreSQL |
+| **[AI Voice Operations — Sophie](./case-studies/ai-voice-operations.md)** | Working first version validated through realistic call scenarios | Inbound voice flow, lead qualification, structured outputs, post-call webhook, WhatsApp handoff, Docker/VPS integration layer | Vapi, Webhooks, APIs, Docker, Linux/VPS, WhatsApp |
+| **[Distributed Browser Automation](./case-studies/distributed-browser-automation.md)** | Full remote collection runs validated | Remote Windows agents, Ubuntu coordination server, concurrency rules, scheduling, session recovery, run state, logs and PostgreSQL persistence | Python, Playwright, Django, PostgreSQL, Linux/Windows |
+| **[Marketplace Payment Infrastructure](./case-studies/marketplace-payment-infrastructure.md)** | Split-payment flow and plugin core implemented and tested | Multi-vendor financial rules, validation, idempotency, duplicate protection, refunds/reversals, HPOS compatibility and automated tests | PHP, WordPress, WooCommerce, Dokan, Asaas API |
+| **[SaaS Benchmarking Platform](./case-studies/saas-benchmarking-platform.md)** | First product phase delivered | Authentication, company/user scoping, roles, 7-day trial rules, CSV ingestion, metric persistence, dashboards and protected admin routes | Next.js, TypeScript, Supabase, PostgreSQL |
 
-> Commercial repositories remain private when they contain client-specific code or operational details. The case studies document the architecture, engineering decisions and responsibilities without exposing proprietary source code or sensitive data.
+> Client/commercial repositories stay private when they contain proprietary code, credentials, business rules or operational details. The linked case studies document architecture, responsibilities and technical decisions without exposing sensitive material.
 
 ---
 
-## The engineering surface I work on
+## Engineering depth
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Backend & integrations
+### Reliability & automation
 
-- REST APIs and webhook consumers
-- External service integrations
-- Authentication and permission boundaries
-- Payment and financial workflows
-- Server-side validation and data processing
+- Browser/session recovery for long-running agents
+- Concurrency and minimum-interval rules
+- Scheduled execution and run-state tracking
+- Logging and operational visibility
+- Remote agent + central control workflows
 
 </td>
 <td width="50%" valign="top">
 
-### Automation & operations
+### APIs & integrations
 
-- Browser automation with Playwright/Selenium
-- Scheduled and long-running jobs
-- Remote agents and control-plane workflows
-- Failure recovery and session handling
-- Logs, alerts and operational visibility
+- REST APIs and webhook consumers
+- WhatsApp and voice-agent handoffs
+- External provider constraints and failure handling
+- Server-side validation and redirect safety
+- Payment and marketplace integrations
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### Product systems
+### Product & data boundaries
 
-- SaaS products and internal tools
+- Authentication and role-aware access
+- Supabase RLS / company-scoped data
 - Mini-CRMs and admin surfaces
-- Web + desktop hybrid applications
-- Dashboards backed by real workflows
-- File ingestion and metric pipelines
+- CSV/file ingestion and persisted metrics
+- Web + desktop hybrid systems
 
 </td>
 <td width="50%" valign="top">
 
-### Applied AI
+### Financial correctness
 
-- Voice agents for inbound operations
-- Lead qualification and structured capture
-- AI-to-human handoff workflows
-- WhatsApp delivery and operational summaries
-- AI as part of a system, not the whole product
+- Idempotent payment processing
+- Duplicate-processing protection
+- Refund/reversal flows
+- Multi-vendor allocation rules
+- Automated tests around business-critical logic
 
 </td>
 </tr>
@@ -90,19 +92,16 @@ My recent work is not centered on tutorial projects. It includes systems used fo
 
 ---
 
-## Production concerns I take seriously
+## How I build
 
-The interesting part of software usually starts after the happy path works. Across recent projects, I have had to deal with:
+**1. Understand the operation** — map the real workflow, constraints and failure points.  
+**2. Define the smallest reliable scope** — avoid oversized specs before the core flow is proven.  
+**3. Ship a functional version** — something that can be tested in the actual operating context.  
+**4. Validate real behavior** — use logs, edge cases and user feedback instead of assuming the happy path is enough.  
+**5. Harden the system** — recovery, validation, permissions, duplicate protection and operational visibility.  
+**6. Document and iterate** — make the next change easier than the previous one.
 
-- **Idempotency and duplicate protection** in payment/integration flows;
-- **concurrency and minimum-interval rules** in distributed automation;
-- **session and browser recovery** for long-running agents;
-- **authentication, roles and row-level access boundaries** in SaaS applications;
-- **provider/API limitations** that must be treated as part of the system contract;
-- **deploy, logs and operational visibility** so failures can be diagnosed after delivery;
-- **tests around financial and business rules** where a silent mistake is expensive.
-
-That is the kind of work I want my GitHub to represent.
+That approach is visible across the case studies above: the work is not only about features, but about making the system **operable, diagnosable and maintainable**.
 
 ---
 
@@ -111,7 +110,7 @@ That is the kind of work I want my GitHub to represent.
 | Area | Technologies |
 |---|---|
 | **Backend** | Python, FastAPI, Flask, Django, PHP |
-| **Frontend** | TypeScript, React, Next.js, Electron |
+| **Frontend / Desktop** | TypeScript, React, Next.js, Electron |
 | **Data** | PostgreSQL, Supabase, SQL, ETL |
 | **Automation** | Playwright, Selenium, scheduled jobs, browser workflows |
 | **Infrastructure** | Docker, Linux/VPS, Vercel, Cloudflare |
@@ -121,45 +120,29 @@ That is the kind of work I want my GitHub to represent.
 
 ## Public code
 
-These repositories are intentionally public because they can be reviewed without exposing client code:
+My strongest commercial work is represented by the case studies above. These repositories are public because their source can be reviewed without exposing client code:
 
 | Repository | What you can inspect |
 |---|---|
+| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Scheduled data collection, DeFiLlama integration, Telegram delivery, alert rules and subscription flow. |
 | **[telegram-message-router](https://github.com/KarlosSanchez18/telegram-message-router)** | Async Telegram routing with Telethon, source/target rules, topics and scheduled workflows. |
-| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Small Flask integration layer that receives events and forwards structured Telegram notifications. |
-| **[defi-alert-bot](https://github.com/KarlosSanchez18/defi-alert-bot)** | Scheduled data collection, Telegram delivery, DeFiLlama integration, alert rules and subscription flow. |
+| **[automation-bot](https://github.com/KarlosSanchez18/automation-bot)** | Flask integration layer receiving events and forwarding structured Telegram notifications. |
 
-My earlier Data/BI repositories remain available as part of my background, but they are **not the center of my current positioning**.
-
----
-
-## How I deliver
-
-```text
-Understand the operation
-        ↓
-Define the smallest reliable scope
-        ↓
-Build a functional version
-        ↓
-Validate with real usage
-        ↓
-Harden the failure paths
-        ↓
-Document and iterate
-```
-
-I prefer a working first version with clear boundaries over an oversized specification that never reaches production. From there, I improve the system based on real behavior, edge cases and operating feedback.
+<details>
+<summary><strong>Earlier Data / BI work</strong></summary>
+<br />
+My background also includes SQL, ETL, Excel and Power BI. Those repositories remain public as part of my trajectory, but my current positioning is centered on software systems, automation and integrations.
+</details>
 
 ---
 
-## What I am open to
+## Available for
 
-- Freelance development projects
+- Freelance software development
 - Remote contracts
-- Automation and integration work
-- Full-stack product development
-- Technical support for agencies/software teams that need implementation capacity
+- Automation and integration projects
+- Full-stack product / MVP implementation
+- Technical implementation support for agencies and software teams
 
 **Based in Brazil · available for remote work.**
 
