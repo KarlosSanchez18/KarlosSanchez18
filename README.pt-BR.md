@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/github-header.webp" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
 <h3 align="center">Desenvolvedor Full-Stack · Automação · Integrações · Sistemas de Negócio</h3>
