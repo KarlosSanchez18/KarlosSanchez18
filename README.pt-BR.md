@@ -7,89 +7,80 @@
   <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
-<h2 align="center">Desenvolvedor Full-Stack · Automação · Integrações com IA · Sistemas de Negócio</h2>
+<h2 align="center">Desenvolvedor Full-Stack focado em automação, integrações e software operacional</h2>
 
 <p align="center">
-  Transformo processos manuais e ferramentas desconectadas em software útil, sustentável e pronto para operar.
+  Python · TypeScript · APIs · Web/Desktop · Automação de navegador · SaaS · IA aplicada
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/karlos-sanchez/"><img src="https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Email-Contato-2B2B2B?style=for-the-badge" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Brasil-Remoto-FF6A00?style=for-the-badge" alt="Brasil Remoto" />
+  <a href="https://www.linkedin.com/in/karlos-sanchez/"><img src="https://img.shields.io/badge/LinkedIn-Karlos%20Sanchez-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/Email-karloseduardosanchez%40hotmail.com-2B2B2B?style=flat-square" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Brasil-Remoto-FF6A00?style=flat-square" alt="Brasil Remoto" />
 </p>
-
-<p align="center"><strong>Python · TypeScript · APIs · Automação · Integrações · SaaS · IA Aplicada</strong></p>
-
-<br />
-
-<p align="center">
-  <img src="./assets/capabilities-pt.svg" alt="O que eu construo" width="100%" />
-</p>
-
-<br />
-
-## Trabalhos em destaque
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="100%" alt="UTMZAP — Lead Tracking & CRM" /></a>
-
-### UTMZAP — Lead Tracking & CRM
-Sistema de atribuição de leads para agências, combinando links rastreáveis, captura de UTMs, fluxos de WhatsApp e mini-CRM.
-
-**Electron · React · TypeScript · Next.js · Supabase · PostgreSQL**
-
-[Ver case study →](./case-studies/lead-tracking-crm.md)
-</td>
-<td width="50%" valign="top">
-<a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="100%" alt="AI Voice Operations — Sophie" /></a>
-
-### AI Voice Operations — Sophie
-Recepcionista com IA para uma empresa de serviços nos EUA, atendendo chamadas, qualificando leads e enviando resumos estruturados para a equipe no WhatsApp.
-
-**Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp**
-
-[Ver case study →](./case-studies/ai-voice-operations.md)
-</td>
-</tr>
-</table>
-
-### Outros sistemas
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-#### Distributed Browser Automation
-Agentes remotos, controle centralizado, agendamento, recuperação e automações de navegador de longa duração.
-
-[Case study →](./case-studies/distributed-browser-automation.md)
-
-</td>
-<td width="33%" valign="top">
-
-#### Marketplace Payment Infrastructure
-Split multi-vendedor, regras financeiras, idempotência e tratamento de refunds/reversals.
-
-[Case study →](./case-studies/marketplace-payment-infrastructure.md)
-
-</td>
-<td width="33%" valign="top">
-
-#### SaaS Benchmarking Platform
-Autenticação, ingestão de CSV, processamento de métricas, dashboards, roles e área administrativa protegida.
-
-[Case study →](./case-studies/saas-benchmarking-platform.md)
-
-</td>
-</tr>
-</table>
 
 ---
 
-## Tecnologias principais
+## O tipo de problema que eu gosto de resolver
+
+Boa parte dos meus projetos começa com uma operação que já funciona **manualmente**, mas mal: abas demais abertas, copiar e colar, planilhas, mensagens no WhatsApp, verificações repetitivas ou dois sistemas que simplesmente não conversam entre si.
+
+Eu mapeio esse fluxo, substituo a parte frágil por software e depois cuido do que normalmente some das demos: tentativas novamente, permissões, eventos duplicados, limitações de provedores, recuperação, logs e aqueles casos estranhos que só aparecem depois que o sistema fica rodando por um tempo.
+
+Nos trabalhos recentes, isso virou **rastreamento de origem antes do WhatsApp**, **atendimento de voz com IA**, **automação distribuída entre servidores**, **regras de pagamento em marketplace** e **sistemas internos SaaS**.
+
+> Tenho muito mais interesse em software que tira trabalho de uma operação do que em colocar tecnologia só porque ela parece interessante.
+
+---
+
+## Projetos selecionados
+
+### 01 — UTMZAP / Lead Tracking & CRM
+
+<p align="center">
+  <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="88%" alt="UTMZAP — Lead Tracking & CRM" /></a>
+</p>
+
+Uma agência precisava saber **de onde o lead veio antes da conversa ir para o WhatsApp**. Eu construí um fluxo desktop + web que cria links rastreáveis de campanha, captura UTMs e identificadores de anúncio, registra eventos de clique/lead e entrega para a equipe um mini-CRM para acompanhar o que aconteceu depois.
+
+**O que ficou comigo:** arquitetura, app desktop em Electron, fluxo público de tracking, autenticação/RLS no Supabase, modelo de dados, endpoints da API, fluxo de leads e documentação de deploy.
+
+**Stack:** Electron · React · TypeScript · Next.js · Supabase · PostgreSQL · APIs REST
+
+[Ver o case do UTMZAP →](./case-studies/lead-tracking-crm.md)
+
+---
+
+### 02 — Sophie / AI Voice Operations
+
+<p align="center">
+  <a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="88%" alt="AI Voice Operations — Sophie" /></a>
+</p>
+
+Para uma empresa de limpeza nos EUA, desenvolvi uma assistente de voz receptiva que atende chamadas, faz as perguntas que a equipe realmente precisa, organiza as respostas e envia um resumo da ligação para o WhatsApp depois da conversa.
+
+A parte interessante não foi só fazer o modelo falar. Foi fazer o handoff inteiro funcionar: **comportamento do prompt, captura estruturada, webhooks, processamento pós-ligação, entrega no WhatsApp, infraestrutura em VPS/Docker e tratamento de falhas**.
+
+**Stack:** Vapi · Webhooks · APIs · Docker · Linux/VPS · WhatsApp
+
+[Ver o case de AI Voice →](./case-studies/ai-voice-operations.md)
+
+---
+
+## Outros sistemas em que trabalhei
+
+**Distributed Browser Automation** — agentes remotos coletando dados operacionais em máquinas diferentes, com controle centralizado de runs, agendamento, regras de intervalo mínimo, recuperação de sessão, logs e tratamento de falhas.  
+[Ver case →](./case-studies/distributed-browser-automation.md)
+
+**Marketplace Payment Infrastructure** — integração customizada WooCommerce/Dokan/Asaas para split multi-vendedor, validações, idempotência, refunds/reversals e regras financeiras fora do caminho feliz.  
+[Ver case →](./case-studies/marketplace-payment-infrastructure.md)
+
+**SaaS Benchmarking Platform** — autenticação, acesso por empresa/usuário, ingestão de CSV, métricas persistidas, dashboards, regras de trial e área administrativa protegida.  
+[Ver case →](./case-studies/saas-benchmarking-platform.md)
+
+---
+
+## Ferramentas que uso com frequência
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -103,35 +94,36 @@ Autenticação, ingestão de CSV, processamento de métricas, dashboards, roles 
   <img src="https://img.shields.io/badge/Playwright-111111?style=for-the-badge&logo=playwright&logoColor=white" alt="Playwright" />
 </p>
 
-<p align="center"><strong>Web · Desktop · APIs · Automação · Infraestrutura · Integrações</strong></p>
-
-<br />
-
-<p align="center">
-  <img src="./assets/process-pt.svg" alt="Como eu trabalho" width="100%" />
-</p>
-
-<p align="center">Prefiro uma primeira versão útil e com limites claros a uma especificação enorme que nunca chega em produção.</p>
+Não escolho stack porque fica bonita no diagrama. Normalmente escolho o menor conjunto de ferramentas que deixe o sistema mais simples de entregar, operar e alterar depois.
 
 ---
 
+## Coisas que passam a importar quando o caminho feliz já funciona
+
+- **Idempotência e proteção contra duplicidade** quando existe dinheiro ou evento externo envolvido.
+- **Recuperação** em sessões longas de navegador e agentes remotos.
+- **Permissões e limites de dados** em produtos SaaS com múltiplos usuários.
+- **Limitações de provedores** tratadas como parte do desenho do sistema, e não como surpresa no final.
+- **Logs e visibilidade operacional** para que uma falha consiga ser diagnosticada de verdade.
+- **Primeiras versões pequenas** que possam ser usadas antes do projeto virar uma especificação de seis meses.
+
 <details>
-<summary><strong>Profundidade técnica</strong></summary>
+<summary><strong>Mais detalhes técnicos</strong></summary>
 <br />
 
-### Confiabilidade & automação
-- Recuperação de navegador/sessão em agentes de longa duração
-- Regras de concorrência e intervalo mínimo
-- Execução agendada e controle de estado
-- Logs e visibilidade operacional
-- Agentes remotos com controle centralizado
+### Automação & operação
+- Fluxos de navegador com Playwright/Selenium
+- Agendamento, controle de estado e concorrência
+- Recuperação de navegador/sessão
+- Agentes remotos e controle centralizado
+- Deploy em VPS/Linux e serviços com Docker
 
 ### APIs & integrações
 - APIs REST e consumidores de webhook
 - Handoffs com WhatsApp e agentes de voz
-- Limitações de provedores e tratamento de falhas
+- Integrações com provedores de pagamento
 - Validação server-side e segurança de redirects
-- Integrações financeiras e marketplaces
+- Tratamento de falhas em APIs externas
 
 ### Produto & dados
 - Autenticação e acesso por função
@@ -140,17 +132,10 @@ Autenticação, ingestão de CSV, processamento de métricas, dashboards, roles 
 - Ingestão de CSV/arquivos e métricas persistidas
 - Sistemas híbridos web + desktop
 
-### Correção financeira
-- Processamento idempotente
-- Proteção contra duplicidade
-- Fluxos de refund/reversal
-- Regras de divisão multi-vendedor
-- Testes automatizados em lógica crítica de negócio
-
 </details>
 
 <details>
-<summary><strong>Código público</strong></summary>
+<summary><strong>Repositórios públicos</strong></summary>
 <br />
 
 | Repositório | O que pode ser analisado |
@@ -165,12 +150,14 @@ Repositórios comerciais/de clientes permanecem privados quando contêm código 
 
 ---
 
-<h2 align="center">Disponível para construir software útil</h2>
+## Se isso parece familiar
 
-<p align="center"><strong>Projetos freelance · Contratos remotos · Automação · Integrações · Desenvolvimento Full-Stack</strong></p>
+Se hoje o processo é algo como **“abre algumas abas, copia daqui, cola ali, manda no WhatsApp e lembra de conferir de novo depois”**, esse é exatamente o tipo de problema que eu gosto de transformar em software.
+
+**Disponível para:** projetos freelance, contratos remotos, automação/integrações e desenvolvimento Full-Stack de produto.
 
 <p align="center">
-  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/VAMOS%20CONSTRUIR%20ALGO-FF6A00?style=for-the-badge" alt="Vamos construir algo" /></a>
+  <a href="mailto:karloseduardosanchez@hotmail.com"><img src="https://img.shields.io/badge/FALE%20COMIGO-FF6A00?style=for-the-badge" alt="Fale comigo" /></a>
 </p>
 
 <p align="center"><strong>Systems that work.</strong><br /><em>De processo manual a software pronto para produção.</em></p>
