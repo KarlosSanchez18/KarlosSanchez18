@@ -1,0 +1,34 @@
+name: Generate profile snake
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-snake.yml"
+  schedule:
+    - cron: "17 3 * * *"
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate orange contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#FF6A00&color_dots=#EBEDF0,#FFD9BF,#FFB27A,#FF873D,#FF6A00
+            dist/github-snake-dark.svg?color_snake=#FF6A00&color_dots=#0D1117,#2B1B12,#603015,#A94700,#FF6A00
+
+      - name: Publish animation to output branch
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
