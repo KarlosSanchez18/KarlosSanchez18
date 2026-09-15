@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
+  <img src="./assets/banner-github.png" alt="Karlos Sanchez — Software Systems & Automation" width="100%" />
 </p>
 
 <h3 align="center">Full-Stack Developer · Automation · Integrations · Business Systems</h3>
@@ -26,7 +26,7 @@
 ### UTMZAP — Lead Tracking & CRM
 
 <p align="center">
-  <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/case-utmzap.webp" width="96%" alt="UTMZAP — Lead Tracking and CRM" /></a>
+  <a href="./case-studies/lead-tracking-crm.md"><img src="./assets/capa-en.png" width="90%" alt="UTMZAP — Lead Tracking and CRM" /></a>
 </p>
 
 Lead attribution and mini-CRM system for agencies that need to keep campaign context before a conversation moves to WhatsApp. It includes trackable links, UTM/ad capture, click and lead events, a client portal and lead follow-up.
@@ -40,7 +40,7 @@ Lead attribution and mini-CRM system for agencies that need to keep campaign con
 ### Sophie — AI Voice Operations
 
 <p align="center">
-  <a href="./case-studies/ai-voice-operations.md"><img src="./assets/case-ai-voice.webp" width="96%" alt="Sophie — AI Voice Operations" /></a>
+  <a href="./case-studies/ai-voice-operations.md"><img src="./assets/ai-voice-en.png" width="90%" alt="Sophie — AI Voice Operations" /></a>
 </p>
 
 Inbound voice assistant built for a U.S. service business. It handles calls, qualifies leads, captures structured customer information and sends the team a WhatsApp summary after each conversation.
